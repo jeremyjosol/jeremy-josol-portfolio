@@ -1,6 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import headshot from './../img/headshot.jpg';
+import { IoMdMail } from "react-icons/io";
 
 const Hero = () => {
   return (
@@ -13,7 +14,7 @@ const Hero = () => {
         <br /> 
         I'm Jeremy Josol.</h1>
         <p>I'm a web developer based out of Portland, OR. I'm passionate about implementing creative design solutions to enhance and modernize user application experiences.</p>
-        <button className="contact-button">Contact Me</button>
+        <button className="contact-button"><IoMdMail className='icons' /> CONTACT</button>
       </div>
     </div>
   );

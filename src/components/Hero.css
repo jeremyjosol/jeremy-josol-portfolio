@@ -53,22 +53,32 @@ body {
 
 .contact-button {
   padding: 10px 20px;
-  font-size: 16px;
-  background: linear-gradient(to right, #ff6b6b, #3a1c71); 
+  font-size: 13px;
+  font-weight: 600;
+  background: linear-gradient(to right, #ff6b6b, #3a1c71);
   color: #fff;
   border: none;
+  width: 120px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   border-radius: 5px;
   cursor: pointer;
-  transition: background 1s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-position 3s linear; 
+  background-size: 200% auto;
+  background-position: 100% 0;
 }
 
 .contact-button:hover {
-  background: linear-gradient(to right, #3a1c71, #ff6b6b, #ff6b6b, #ff6b6b); 
-  transition: background 1.5s ease;
+  background-position: 0 0;
+}
+
+.contact-button .icons {
+  vertical-align: middle;
 }
 
 .hello-world {
   font-size: 3rem;
   font-weight: 400;
 }
+
 
