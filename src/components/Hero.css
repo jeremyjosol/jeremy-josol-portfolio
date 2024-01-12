@@ -1,0 +1,67 @@
+body {
+  background: linear-gradient(to right, #000000, #202020);  
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1.8fr;
+  gap: 5px;
+}
+
+.headshot img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 25px;
+  border-radius: 100px;
+}
+
+.hero-container p {
+  font-size: 16.5px;
+  color: rgb(252, 252, 252);
+  max-width: 444px;
+}
+
+.hero-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.hero-details h1 {
+  font-size: 5em;
+  margin-bottom: 3px;
+  background: linear-gradient(to right, rgb(107, 203, 255), #56ffb0); 
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .hero-container {
+    grid-template-columns: 1fr;
+  }
+
+  .headshot img {
+    align-items: center;
+  }
+}
+
+.contact-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: linear-gradient(to right, #ff6b6b, #3a1c71); 
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-button:hover {
+  background: linear-gradient(to right, #3a1c71, #ff6b6b, #ff6b6b, #ff6b6b); 
+  transition: background 1.5s ease;
+}
+
