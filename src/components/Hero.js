@@ -9,7 +9,7 @@ const Hero = () => {
         <img src={headshot} alt="" />
       </div>
       <div className="hero-details">
-        <h1>Hello, World! 
+        <h1><span className='hello-world'>Hello, World!</span>
         <br /> 
         I'm Jeremy Josol.</h1>
         <p>I'm a web developer based out of Portland, OR. I'm passionate about implementing creative design solutions to enhance and modernize user application experiences.</p>
