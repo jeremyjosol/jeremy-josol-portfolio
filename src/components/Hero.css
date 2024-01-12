@@ -92,28 +92,39 @@ body {
   }
 }
 
-.contact-button {
-  padding: 10px 20px;
+.contact-button, .about-button {
   font-size: 13px;
   font-weight: 600;
   background: linear-gradient(to right, #ff6b6b, #3a1c71);
   color: #fff;
   border: none;
-  width: 120px;
+  margin-right: 10px;
+  padding: 10px 20px;
   padding-top: 12px;
   padding-bottom: 12px;
+  width: 120px;
   border-radius: 5px;
   cursor: pointer;
   transition: background-position 3s linear; 
   background-size: 200% auto;
   background-position: 100% 0;
+  display: inline-block;
+}
+
+.about-button {
+  background: transparent;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); 
 }
 
 .contact-button:hover {
   background-position: 0 0;
 }
 
-.contact-button .icons {
+.about-button:hover {
+  box-shadow: 0 0 7px rgba(255, 255, 255, 0.75);
+}
+
+.contact-button .icons, .about-button .icons {
   vertical-align: middle;
 }
 
