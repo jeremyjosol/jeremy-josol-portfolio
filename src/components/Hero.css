@@ -21,7 +21,7 @@ body {
   font-size: 16.5px;
   font-weight: 200;
   color: rgb(252, 252, 252);
-  max-width: 444px;
+  width: 444px;
 }
 
 .hero-details {
@@ -31,23 +31,64 @@ body {
   align-items: flex-start;
 }
 
+.hello-world {
+  color: rgb(227, 227, 227);
+  font-size: 3rem;
+  font-weight: 200;
+  position: relative;
+}
+
+
 .hero-details h1 {
   font-size: 5em;
   margin-bottom: 3px;
-  background: linear-gradient(to right, rgb(107, 203, 255), #56ffb0); 
-  -webkit-background-clip: text;
-  color: transparent;
   display: inline-block;
   font-weight: 700;
 }
 
-@media (max-width: 768px) {
+.becoming-gradient {
+  color: rgb(107, 203, 255); 
+}
+
+.gradient {
+  background: linear-gradient(to right, rgb(107, 203, 255), #56ffb0); 
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@media (max-width: 985px) {
   .hero-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 4fr;
+  }
+
+  .hero-details {
+    margin-left: 25px;
+    padding-bottom: 25px;
   }
 
   .headshot img {
     align-items: center;
+    margin-bottom: -50px;
+    width: 225px;
+    height: 275px;
+  }
+
+  .hero-details h1 {
+    font-size: 4em;
+  }
+}
+
+@media (max-width: 675px) {
+  .hello-world {
+    font-size: 2.9rem;
+  }
+
+  .hero-details h1 {
+    font-size: 3.8em;
+  }
+
+  .hero-container p {
+    width: 333px;
   }
 }
 
@@ -74,11 +115,6 @@ body {
 
 .contact-button .icons {
   vertical-align: middle;
-}
-
-.hello-world {
-  font-size: 3rem;
-  font-weight: 400;
 }
 
 
