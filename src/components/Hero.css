@@ -35,10 +35,10 @@ body {
   color: rgb(227, 227, 227);
   font-size: 3rem;
   font-weight: 200;
+  letter-spacing: 7px;
   position: relative;
   top: 16px;
 }
-
 
 .hero-details h1 {
   font-size: 5em;

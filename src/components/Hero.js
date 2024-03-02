@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Hero.css';
 import headshot from './../img/headshot.jpg';
 import { IoMdMail } from "react-icons/io";
 import { BsArrowRightCircle } from "react-icons/bs";
+import Sidebar from './Sidebar'; // Import the Sidebar component
 
 const Hero = () => {
+  const [showSidebar, setShowSidebar] = useState(false);
+
   return (
-    <div className="hero-container">
+    <div className="hero-container" onMouseEnter={() => setShowSidebar(true)} onMouseLeave={() => setShowSidebar(false)}>
       <div className="headshot">
         <img src={headshot} alt="" />
       </div>
@@ -21,6 +24,7 @@ const Hero = () => {
           <button className="contact-button"><IoMdMail className='icons' /> CONTACT</button>
         </div>
       </div>
+      {showSidebar && <Sidebar />}
     </div>
   );
 }
