@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import './Hero.css';
 import headshot from './../img/headshot.jpg';
 import { IoMdMail } from "react-icons/io";
-import { BsArrowRightCircle, BsList } from "react-icons/bs";
+import { BsArrowRightCircle} from "react-icons/bs";
+import { MdKeyboardArrowRight } from "react-icons/md";
 import Sidebar from './Sidebar';
 
 const Hero = () => {
@@ -11,7 +12,7 @@ const Hero = () => {
   return (
     <div className="hero-container">
       <div className="toggle-icon-container">
-        <BsList className="toggle-icon" onMouseEnter={() => setShowSidebar(true)} />
+        <MdKeyboardArrowRight className="toggle-icon" onMouseEnter={() => setShowSidebar(true)} />
       </div>
       <div className="headshot">
         <img src={headshot} alt="" />
