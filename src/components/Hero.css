@@ -6,6 +6,28 @@ body {
   display: grid;
   grid-template-columns: 1fr 1.8fr;
   gap: 5px;
+  /* position: relative;
+  display: flex; */
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.toggle-button {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #3a1c71;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toggle-button:hover {
+  background-color: #291450;
 }
 
 .headshot img {
@@ -128,5 +150,3 @@ body {
 .contact-button .icons, .about-button .icons {
   vertical-align: middle;
 }
-
-
