@@ -1,12 +1,21 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import './Background.css';
 import video from './../assets/background.mp4';
 
 const Background = () => {
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.playbackRate = 0.75; 
+    }
+  }, []);
+
   return (
     <>
       <div className='shadow-overlay'></div>
       <video 
+        ref={videoRef}
         playsInline 
         autoPlay
         muted 
@@ -17,7 +26,7 @@ const Background = () => {
         <source src={video} type='video/mp4' />
       </video>
     </>
-  )
+  );
 }
 
 export default Background;
