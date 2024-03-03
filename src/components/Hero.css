@@ -3,6 +3,8 @@
   grid-template-columns: 50fr 1fr 1fr;
   gap: 5px;
   position: relative;
+  top: 50px;
+  /* top: 50px; */
 }
 
 .hero-container .headshot img {
@@ -10,6 +12,11 @@
   height: auto; 
   display: block;
   margin: auto;
+  margin-right: 30px;
+  padding: 0;
+  /* padding-left: 100px; */
+  /* position: relative; */
+  /* left: 200px; */
 }
 
 .main-content {
@@ -41,10 +48,15 @@
 }
 
 .hero-details {
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  margin: auto;
+  width: 600px;
+  /* position: relative;
+  margin: */
+  /* right: 125px; */
   /* margin-right: 555px; */
   /* margin: auto; */
   /* width: 700px; */
@@ -129,14 +141,15 @@
    /* bottom: 300px; */
    position: relative;
    top: 75px;
+   margin: auto;
   }
 
   .hero-details {
     display: flex;
     padding-bottom: 25px;
     margin: auto;
-    margin-left: 100p
-    /* position: relative; */
+    position: relative;
+    left: 50px;
   }
 
   .hero-details h1 {
