@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Hero.css';
-import headshot from './../img/headshot.jpg';
+import headshot from './../img/headshot.png';
 import { IoMdMail } from "react-icons/io";
 import { BsArrowRightCircle} from "react-icons/bs";
 import { MdKeyboardArrowRight } from "react-icons/md";
@@ -11,11 +11,11 @@ const Hero = () => {
 
   return (
     <div className="hero-container">
-      <div className="toggle-icon-container">
-        <MdKeyboardArrowRight className="toggle-icon" onMouseEnter={() => setShowSidebar(true)} />
-      </div>
       <div className="headshot">
         <img src={headshot} alt="" />
+      </div>
+      <div className="toggle-icon-container">
+        <MdKeyboardArrowRight className="toggle-icon" onMouseEnter={() => setShowSidebar(true)} />
       </div>
       <div className="hero-details">
         <h1><span className='hello-world'>Hello, World!</span>
