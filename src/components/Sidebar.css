@@ -1,11 +1,11 @@
 .sidebar {
-  position: fixed;
-  top: 0;
+  position: absolute;
+  top: 0px;
   left: 0;
   width: 200px;
   height: 100vh;
   background-color: #33333361;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   padding: 20px;
   overflow-y: none;
   transform: translateX(-100%);

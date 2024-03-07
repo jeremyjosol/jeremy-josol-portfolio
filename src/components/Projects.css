@@ -87,3 +87,10 @@
 .project-card:hover .overlay {
   opacity: 0.1;
 }
+
+@media (max-width: 1800px) {
+  .project-card {
+    gap: 2px;
+    width: 100%; /* Set a percentage value to gradually shrink the cards */
+  }
+}
