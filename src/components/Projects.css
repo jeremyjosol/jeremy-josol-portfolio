@@ -3,6 +3,7 @@
   overflow: hidden;
   display: flex;
   align-items: center;
+  justify-content: center; /* Center horizontally */
   flex-direction: column;
 }
 
@@ -14,13 +15,13 @@
 }
 
 .project-card {
+  position: relative; 
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 300px;
-  height: 200px;
-  height: 200px;
+  width: 420px; 
+  height: 210px; 
   margin: 10px;
 }
 
@@ -30,8 +31,25 @@
   object-fit: cover;
 }
 
+.project-card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.77); 
+  opacity: 1; 
+  transition: opacity 0.3s ease; 
+}
+
+.project-card:hover .overlay {
+  opacity: 0;
+}
+
+
 .project-card h3 {
   font-size: 18px;
   padding: 10px;
   text-align: center;
+  color: white; 
 }

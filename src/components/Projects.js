@@ -1,9 +1,10 @@
 import React from 'react';
 import './Projects.css';
+import projectOne from './../img/less-but-better.png'
 
 const Projects = () => {
   const projects = [
-    { id: 1, title: '', imageUrl: '' },
+    { id: 1, title: '', imageUrl: projectOne },
     { id: 2, title: '', imageUrl: '' },
     { id: 3, title: '', imageUrl: '' },
     { id: 4, title: '', imageUrl: ''},
@@ -16,6 +17,7 @@ const Projects = () => {
         {projects.map(project => (
           <div key={project.id} className="project-card">
             <img src={project.imageUrl} alt={project.title} />
+            <div className="overlay"></div> {/* Overlay div */}
             <h3>{project.title}</h3>
           </div>
         ))}
