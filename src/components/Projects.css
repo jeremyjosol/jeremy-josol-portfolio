@@ -10,7 +10,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr); 
   grid-template-rows: repeat(2, auto);
-  gap: 0px;
+  gap: 2px;
 }
 
 .projects-header {
@@ -90,7 +90,7 @@
 
 @media (max-width: 1800px) {
   .project-card {
-    gap: 2px;
+    gap: 20px;
     width: 100%; /* Set a percentage value to gradually shrink the cards */
   }
 }

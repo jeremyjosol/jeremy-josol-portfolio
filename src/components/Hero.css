@@ -29,9 +29,9 @@
 }
 
 .toggle-icon-container {
-  position: fixed;
-  left: 25px; 
-  top: 50%; 
+  position: absolute;
+  left: 3px; 
+  top: 2%; 
   transform: translateY(-50%);
   cursor: pointer;
 }
