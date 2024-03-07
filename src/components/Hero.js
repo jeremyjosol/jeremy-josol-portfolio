@@ -4,6 +4,7 @@ import headshot from './../img/headshot.png';
 import { IoMdMail } from "react-icons/io";
 import { BsArrowRightCircle} from "react-icons/bs";
 import { MdKeyboardArrowRight } from "react-icons/md";
+
 import Sidebar from './Sidebar';
 
 const Hero = () => {

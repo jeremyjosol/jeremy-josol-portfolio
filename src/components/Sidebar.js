@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './Sidebar.css';
+import { IoMdMail } from "react-icons/io";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Sidebar = ({ showSidebar, onHideSidebar }) => {
   const [isMouseOver, setIsMouseOver] = useState(false);
@@ -20,17 +22,21 @@ const Sidebar = ({ showSidebar, onHideSidebar }) => {
       onMouseLeave={handleMouseLeave}
     >
       <div className="sidebar-content">
-        <h2>Sidebar</h2>
+        <h2>Projects</h2>
         <ul>
           <li>Item 1</li>
           <li>Item 2</li>
         </ul>
+        <div className="contact-icons">
+          <IoMdMail className="icon" />
+          <FaLinkedin className="icon" />
+          <FaGithub className="icon" />
+        </div>
       </div>
     </div>
   );
 }
 
 export default Sidebar;
-
 
 

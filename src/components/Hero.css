@@ -3,20 +3,25 @@
   grid-template-columns: 50fr 1fr 1fr;
   gap: 5px;
   position: relative;
-  top: 50px;
+  overflow: hidden;
   /* top: 50px; */
 }
 
 .hero-container .headshot img {
-  max-width: 100%; 
+  /* max-width: 100%;  */
   height: auto; 
   display: block;
   margin: auto;
   margin-right: 30px;
   padding: 0;
+  /* background-color: black; */
   /* padding-left: 100px; */
-  /* position: relative; */
-  /* left: 200px; */
+  position: relative;
+  left: 150px;
+}
+
+.headshot {
+  position: relative; 
 }
 
 .main-content {
@@ -53,7 +58,7 @@
   justify-content: center;
   align-items: flex-start;
   margin: auto;
-  width: 600px;
+  max-width: 100%;
   /* position: relative;
   margin: */
   /* right: 125px; */
@@ -100,7 +105,7 @@
   padding: 10px 20px;
   padding-top: 12px;
   padding-bottom: 12px;
-  width: 120px;
+  max-width: 120px;
   border-radius: 5px;
   cursor: pointer;
   transition: background-position 3s linear; 
@@ -126,7 +131,7 @@
   vertical-align: middle;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1280px) {
   .hero-container {
     display: flex;
     flex-direction: column;
@@ -136,11 +141,12 @@
   }
 
   .hero-container .headshot img {
-   max-width: 555px;
+   max-width: 80%;
    display: flex;
    /* bottom: 300px; */
    position: relative;
-   top: 75px;
+   top: 50px;
+   /* right: 250px; */
    margin: auto;
   }
 
@@ -157,7 +163,7 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 885px) {
   .hello-world {
     font-size: 1.0rem;
   }
@@ -169,10 +175,50 @@
   .hero-container {
     margin: auto;
     position: relative;
+    /* flex-direction: row-reverse; */
   }
 
   .hero-container .headshot img {
-    max-width: 75%;
+    display: flex;
+    bottom: 500px;
+    position: relative;
+    left: 100px;
+    width: 50%;
+   }
+
+  .hero-container p {
+    width: 370px;
+    font-size: 0.9rem;
+  }
+} 
+
+@media (max-width: 555px) {
+  .hello-world {
+     /* font-size: 0.8rem; */
+     letter-spacing: 10px;
+  }
+
+  .hero-details {
+    width: 100vh;
+    /* text-align: center; */
+    margin: auto;
+  }
+
+  .hero-details h1 {
+    font-size: 3.0em;
+    max-width: 250px;
+    margin: auto;
+    text-align: right;
+    padding-bottom: 16px;
+  }
+
+  .hero-container {
+    margin: auto;
+    position: relative;
+  }
+
+  .hero-container .headshot img {
+    /* width: 68%; */
     display: flex;
     /* bottom: 300px; */
     position: relative;
@@ -180,8 +226,39 @@
    }
 
   .hero-container p {
-    width: 370px;
-    font-size: 0.9rem;
+    width: 222px;
+    font-size: 0.8rem;
+    margin: auto;
+    position: relative;
+    text-align: right;
   }
 
+  .button-container {
+    padding-top: 12px;
+    margin: auto;
+  }
+
+  .about-button, .contact-button {
+    font-size: 12px;
+    padding: 10px;
+    /* margin: auto; */
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 430px) {
+  .hero-container {
+    flex-direction: column-reverse;
+    display: block;
+    /* margin-right: 100px; */
+  }
+
+  .hero-container .headshot img {
+    width: 100%;
+    display: flex;
+    /* bottom: 300px; */
+    position: relative;
+    top: 50px;
+    margin-right: 80px;
+   }
 }
