@@ -51,6 +51,16 @@
   font-weight: 100;
 }
 
+.project-description {
+  color: white;
+  z-index: 1;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+}
+
 .project-links {
   position: absolute;
   top: 10px;

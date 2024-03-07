@@ -1,10 +1,11 @@
 .hero-container {
-  display: grid;
-  grid-template-columns: 50fr 1fr 1fr;
+  display: flex;
+  /* grid-template-columns: 50fr 1fr 1fr; */
   gap: 5px;
   position: relative;
   overflow: hidden;
-  /* top: 50px; */
+  flex-direction: row-reverse;
+  top: 50px;
 }
 
 .hero-container .headshot img {
@@ -18,6 +19,7 @@
   /* padding-left: 100px; */
   position: relative;
   /* left: 150px; */
+  width: 75%;
 }
 
 .headshot {
@@ -47,7 +49,7 @@
 
 .hero-container p {
   font-size: 16.5px;
-  font-weight: 200;
+  font-weight: 00;
   color: rgb(252, 252, 252);
   width: 500px;
 }
@@ -59,8 +61,8 @@
   align-items: flex-start;
   margin: auto;
   max-width: 100%;
-  /* position: relative;
-  margin: */
+  position: relative;
+  left: 200px;
   /* right: 125px; */
   /* margin-right: 555px; */
   /* margin: auto; */
@@ -68,7 +70,7 @@
 }
 
 .hello-world {
-  color: rgba(227, 227, 227, 0.498);
+  color: rgba(227, 227, 227, 0.399);
   font-size: 1.4rem;
   font-weight: 200;
   letter-spacing: 20px;
@@ -77,10 +79,11 @@
 }
 
 .hero-details h1 {
-  font-size: 5em;
+  font-size: 5.4em;
   margin-bottom: 3px;
   display: inline-block;
-  font-weight: 200;
+  font-weight: 500;
+  width: 650px;
 }
 
 .becoming-gradient {
@@ -147,7 +150,7 @@
   }
 
   .hero-container .headshot img {
-   max-width: 80%;
+   max-width: 50%;
    display: flex;
    /* bottom: 300px; */
    position: relative;
@@ -161,11 +164,11 @@
     padding-bottom: 25px;
     margin: auto;
     position: relative;
-    left: 50px;
+    left: 75px;
   }
 
   .hero-details h1 {
-    font-size: 4em;
+    /* font-size: 4em; */
   }
 }
 
@@ -174,14 +177,16 @@
     font-size: 1.0rem;
   }
 
-  .hero-details h1 {
-    font-size: 3.8em;
+  .hero-details {
+    /* margin-left: 200px; */
+    display: flex;
+    position: relative;
+    text-align: center;
+    transition: all 0.3s ease;
   }
 
-  .hero-container {
-    margin: auto;
-    position: relative;
-    /* flex-direction: row-reverse; */
+  .hero-details h1 {
+    font-size: 3.8em;
   }
 
   .hero-container .headshot img {
@@ -193,10 +198,49 @@
    }
 
   .hero-container p {
-    width: 370px;
+    width: 350px; 
     font-size: 0.9rem;
+    text-align: center;
+    margin: auto;
+  }
+
+   .about-button, .contact-button {
+    font-size: 12px;
+    padding: 10px;
+    /* margin: auto; */
+    margin-top: 18px;
+    align-items: center;
+    position: relative;
+    left: 225px
   }
 } 
+
+@media (max-width: 650px) {
+  .hello-world {
+    font-size: 12px;
+    letter-spacing: 9px;
+  }
+  .hero-details h1 {
+    font-size: 3.2em;
+    max-width: 300px;
+    /* text-align: right; */
+    margin: auto;
+  }
+
+  .hero-details {
+    display: flex;
+  }
+
+  .about-button, .contact-button {
+    font-size: 12px;
+    padding: 10px;
+    /* margin: auto; */
+    margin-top: 20px;
+    align-items: center;
+    position: relative;
+    left: 80px
+  }
+}
 
 @media (max-width: 555px) {
   .hello-world {
@@ -232,8 +276,8 @@
    }
 
   .hero-container p {
-    width: 222px;
-    font-size: 0.8rem;
+    width: 250px;
+    font-size: 0.85rem;
     margin: auto;
     position: relative;
     text-align: right;
@@ -245,10 +289,11 @@
   }
 
   .about-button, .contact-button {
-    font-size: 12px;
+    font-size: 11px;
     padding: 10px;
     /* margin: auto; */
-    margin-right: 10px;
+    position: relative;
+    left: 50px; 
   }
 }
 
