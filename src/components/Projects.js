@@ -1,13 +1,16 @@
 import React from 'react';
 import './Projects.css';
 import projectOne from './../img/less-but-better.png'
+import projectTwo from './../img/coffee-beans.png'
+import projectThree from './../img/a-snowballs-chance-in-hell.png'
+import projectFour from './../img/tubby-toast.png'
 
 const Projects = () => {
   const projects = [
     { id: 1, title: 'Less, But Better', imageUrl: projectOne },
-    { id: 2, title: 'Project 2', imageUrl: '' },
-    { id: 3, title: 'Project 3', imageUrl: '' },
-    { id: 4, title: 'Project 4', imageUrl: ''},
+    { id: 2, title: 'Coffee Beans', imageUrl: projectTwo },
+    { id: 3, title: `A Snowball's Chance In Hell`, imageUrl: projectThree },
+    { id: 4, title: 'Tubby Toast', imageUrl: projectFour},
   ];
 
   return (
