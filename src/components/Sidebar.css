@@ -4,13 +4,15 @@
   left: 0;
   width: 200px;
   height: 62vh;
-  background-color: #33333361;
+  background-color: rgba(0, 13, 32, 0.746);
   color: hsl(0, 0%, 100%);
   padding: 20px;
   overflow-y: none;
   transform: translateX(-100%);
   transition: transform 0.3s ease-in-out;
   border-radius: 20px;
+  backdrop-filter: blur(11px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
 }
 
 .sidebar.show {
