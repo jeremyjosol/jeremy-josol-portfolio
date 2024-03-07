@@ -17,7 +17,7 @@
   /* background-color: black; */
   /* padding-left: 100px; */
   position: relative;
-  left: 150px;
+  /* left: 150px; */
 }
 
 .headshot {
@@ -129,6 +129,12 @@
 
 .contact-button .icons, .about-button .icons {
   vertical-align: middle;
+}
+
+@media (max-width: 1475px) {
+  .hero-container .headshot img {
+    left: 120px;
+  }
 }
 
 @media (max-width: 1280px) {

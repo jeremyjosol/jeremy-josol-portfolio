@@ -48,9 +48,9 @@
     font-size: 24px;
 }
 
-@media (max-width: 1320px) {
+@media (max-width: 1350px) {
   .sidebar {
-    width: 180px;
+    width: 150px;
   }
 }
 
