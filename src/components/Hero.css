@@ -62,6 +62,7 @@
   margin: auto;
   max-width: 100%;
   position: relative;
+  bottom: 60px;
   left: 200px;
   /* right: 125px; */
   /* margin-right: 555px; */
@@ -229,6 +230,8 @@
 
   .hero-details {
     display: flex;
+    position: relative;
+    top: 15px;
   }
 
   .about-button, .contact-button {
@@ -252,6 +255,7 @@
     width: 100vh;
     /* text-align: center; */
     margin: auto;
+    position: relative;
   }
 
   .hero-details h1 {
