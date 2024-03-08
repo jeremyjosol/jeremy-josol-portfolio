@@ -6,7 +6,6 @@
   overflow: hidden;
   flex-direction: row-reverse;
   top: 50px;
-  height: 100vh;
 }
 
 .hero-container .headshot img {
@@ -74,7 +73,7 @@
 .hello-world {
   color: rgba(227, 227, 227, 0.399);
   font-size: 1.4rem;
-  font-weight: 200;
+  font-weight: 500;
   letter-spacing: 20px;
   position: relative;
   top: 16px;
@@ -144,7 +143,7 @@
 
 @media (max-width: 1475px) {
   .hero-container .headshot img {
-    left: 120px;
+    left: 18px;
   }
 }
 
@@ -158,11 +157,11 @@
   }
 
   .hero-container .headshot img {
-   max-width: 50%;
+   max-width: 35%;
    display: flex;
    /* bottom: 300px; */
    position: relative;
-   top: 50px;
+   top: 10px;
    /* right: 250px; */
    margin: auto;
   }
@@ -173,6 +172,7 @@
     margin: auto;
     position: relative;
     left: 75px;
+    bottom: 120px;
   }
 
   .hero-details h1 {
@@ -192,18 +192,18 @@
     text-align: center;
     transition: all 0.3s ease;
     left: 30px;
-    bottom: 120px;
+    bottom: 100px;
   }
 
   .hero-details h1 {
-    font-size: 3.8em;
+    font-size: 4.4em;
   }
 
   .hero-container .headshot img {
     display: flex;
-    bottom: 550px;
+    /* top: 1px; */
     position: relative;
-    left: 70px;
+    /* left: 70px; */
     width: 85%;
    }
 
@@ -225,6 +225,23 @@
   }
 } 
 
+@media (max-width: 845px) {
+  .hello-world {
+    font-size: 0.9rem;
+  }
+
+  .hero-details h1 {
+    font-size: 3.9em;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero-details h1 {
+    font-size: 3.8em;
+  }
+}
+
+
 @media (max-width: 650px) {
   .hello-world {
     font-size: 18px;
@@ -232,7 +249,7 @@
   }
 
   .hero-container .headshot img {
-    margin-left: 160px;
+    /* margin-left: 160px; */
   }
 
 
@@ -247,8 +264,8 @@
     display: flex;
     position: relative;
     /* top: -px; */
-    bottom: 145px;
-    margin-left: 120px;
+    bottom: 30px;
+    /* margin-left: 120px; */
   }
 
   .about-button, .contact-button {
@@ -264,8 +281,11 @@
 
 @media (max-width: 555px) {
   .hello-world {
-     /* font-size: 0.8rem; */
-     letter-spacing: 10px;
+     font-size: 0.8rem;
+     font-weight: 600;
+     letter-spacing: 12.5px;
+     position: relative;
+     top: 10px;
   }
 
   .hero-details {
@@ -273,14 +293,15 @@
     /* text-align: center; */
     margin: auto;
     position: relative;
+    margin-top: 20px;
   }
 
   .hero-details h1 {
-    font-size: 3.0em;
+    font-size: 2.0em;
     max-width: 250px;
     margin: auto;
-    text-align: right;
-    padding-bottom: 16px;
+    /* text-align: right; */
+    padding-bottom: 5px;
   }
 
   .hero-container {
@@ -293,16 +314,14 @@
     display: flex;
     /* bottom: 300px; */
     position: relative;
-    top: 18px;
-    margin-left: 140px;
    }
 
   .hero-container p {
     width: 250px;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     margin: auto;
     position: relative;
-    text-align: right;
+    /* text-align: right; */
   }
 
   .button-container {
@@ -311,32 +330,43 @@
   }
 
   .about-button, .contact-button {
-    font-size: 11px;
+    font-size: 10px;
     padding: 10px;
     /* margin: auto; */
     position: relative;
-    left: 50px; 
+    left: 1px;
   }
 }
 
 @media (max-width: 430px) {
   .hero-container {
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
     display: block;
     /* margin-right: 100px; */
   }
 
   .hero-container .headshot img {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     /* bottom: 300px; */
     position: relative;
-    top: 50px;
-    left: 0;
+    /* top: 50px; */
+    left: 18px;;
    }
 
    .hero-details {
-    top: 5px;
+    /* top: 5px; */
+   }
+
+   .hello-world {
+    font-size: 14px;
+    position: relative;
+    top: 8px;
+    letter-spacing: 12px;
+   }
+
+   .hero-details h1 {
+    font-size: 32px;
    }
 
    .hero-details h1, .hero-details p {
@@ -345,11 +375,10 @@
    }
 
    .about-button, .contact-button {
-    font-size: 11px;
+    font-size: 9.5px;
     padding: 10px;
     /* margin: auto; */
     position: relative;
-    left: -40px;
    }
    
 }
