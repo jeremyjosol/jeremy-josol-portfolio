@@ -105,9 +105,11 @@
   text-decoration: none;
 }
 
-.project-links a:hover{
+.project-links a:hover {
   color: #61DBFB;
   transition: 0.3s ease-in;
+  transform: translateY(-3px);
+
 }
 
 
