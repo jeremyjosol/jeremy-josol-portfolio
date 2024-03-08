@@ -63,8 +63,8 @@
   left: 50%;
   width: 100%;
   transform: translate(-50%, -50%);
-  color: rgba(255, 255, 255, 0.751);
-  font-size: 54px;
+  color: rgb(186, 199, 223);
+  font-size: 53px;
   text-align: center;
   z-index: 1;
   transition: opacity 0.3s ease;
@@ -73,7 +73,7 @@
 }
 
 .project-description {
-  color: white;
+  color: rgba(220, 224, 231, 0.857);
   background-color: rgba(0, 34, 112, 0.674);
   padding: 10px;
   border-radius: 12px;

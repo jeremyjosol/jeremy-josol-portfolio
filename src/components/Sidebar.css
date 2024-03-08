@@ -64,13 +64,13 @@
   }
 }
 
-@media (max-width: 772px) {
+@media (max-width: 785px) {
   .sidebar {
     width: 120px;
   }
 }
 
-@media (max-width: 710px) {
+@media (max-width: 725px) {
   .sidebar {
     width: 90px;
   }
