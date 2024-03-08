@@ -20,6 +20,9 @@
   position: relative;
   /* left: 150px; */
   width: 75%;
+  opacity: 0; 
+  animation: fadeIn 2.5s ease-in forwards; 
+  animation-delay: 6s;
 }
 
 .headshot {
@@ -49,9 +52,13 @@
 
 .hero-container p {
   font-size: 16.5px;
-  font-weight: 00;
-  color: rgba(186, 199, 223);
+  font-weight: 500;
+  color: rgba(186, 199, 223, 0.795);
   width: 500px;
+  opacity: 0; 
+  animation: fadeIn 0.5s ease-in forwards;
+  animation-delay: 3s;
+  
 }
 
 .hero-details {
@@ -77,6 +84,9 @@
   letter-spacing: 2px;
   position: relative;
   top: 16px;
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in forwards; 
+  animation-delay: 1s;
 }
 
 .hero-details h1 {
@@ -87,17 +97,40 @@
   width: 650px;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .becoming-gradient {
-  color: rgb(186, 199, 223); 
+  color: rgba(186, 199, 223, 0.82); 
   font-weight: 100;
+  opacity: 0; 
+  animation: fadeIn 0.5s ease-in forwards; 
+  animation-delay: 2.0s; 
 }
 
 .gradient {
-  background: linear-gradient(to right, rgba(141, 169, 220, 0.917), rgb(186, 199, 223)); 
+  background: linear-gradient(to right, rgb(141, 169, 220), rgb(186, 199, 223)); 
   -webkit-background-clip: text;
   color: transparent;
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in forwards; 
+  animation-delay: 2.0s; 
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 .contact-button, .about-button {
   font-size: 13px;
@@ -116,7 +149,23 @@
   background-size: 200% auto;
   background-position: 100% 0;
   display: inline-block;
+  opacity: 0; 
+  transform: translateX(100%); 
+  animation: slideInFromRight 1.5s ease-in forwards;
+  animation-delay: 5s; 
 }
+
+@keyframes slideInFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%); 
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0); 
+  }
+}
+
 
 .about-button {
   background: transparent;
@@ -164,7 +213,7 @@
    top: 10px;
    /* right: 250px; */
    margin: auto;
-   left: 40px;
+   left: 36px;
   }
 
   .hero-details {
@@ -270,6 +319,11 @@
     /* margin-left: 120px; */
   }
 
+  .hero-details p {
+    position: relative;
+    top: 4px;
+  }
+
   .about-button, .contact-button {
     font-size: 12px;
     padding: 10px;
@@ -277,7 +331,7 @@
     margin-top: 20px;
     align-items: center;
     position: relative;
-    left: 80px
+    left: 118px
   }
 }
 
