@@ -50,7 +50,7 @@
 .hero-container p {
   font-size: 16.5px;
   font-weight: 00;
-  color: rgba(224, 224, 224, 0.888);
+  color: rgba(186, 199, 223);
   width: 500px;
 }
 
@@ -71,10 +71,10 @@
 }
 
 .hello-world {
-  color: rgba(227, 227, 227, 0.399);
-  font-size: 1.4rem;
-  font-weight: 500;
-  letter-spacing: 20px;
+  color: rgba(186, 199, 223, 0.791);
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 2px;
   position: relative;
   top: 16px;
 }
@@ -83,27 +83,27 @@
   font-size: 5.4em;
   margin-bottom: 3px;
   display: inline-block;
-  font-weight: 500;
+  font-weight: 600;
   width: 650px;
 }
 
 .becoming-gradient {
-  color: rgb(255, 255, 255); 
+  color: rgb(186, 199, 223); 
+  font-weight: 100;
 }
 
 .gradient {
-  background: linear-gradient(to right, rgb(255, 255, 255), rgba(209, 209, 209, 0.764), #ffffff); 
+  background: linear-gradient(to right, rgba(141, 169, 220, 0.917), rgb(186, 199, 223)); 
   -webkit-background-clip: text;
   color: transparent;
 }
-
 
 
 .contact-button, .about-button {
   font-size: 13px;
   font-weight: 200;
   background-color: rgba(0, 13, 32, 0.746);
-  color: #fff;
+  color: rgb(186, 199, 223);
   border: none;
   margin-right: 10px;
   padding: 10px 20px;
@@ -164,6 +164,7 @@
    top: 10px;
    /* right: 250px; */
    margin: auto;
+   left: 40px;
   }
 
   .hero-details {
@@ -182,7 +183,7 @@
 
 @media (max-width: 885px) {
   .hello-world {
-    font-size: 1.0rem;
+    /* font-size: 1.0rem; */
   }
 
   .hero-details {
@@ -192,7 +193,7 @@
     text-align: center;
     transition: all 0.3s ease;
     left: 30px;
-    bottom: 100px;
+    bottom: 75px;
   }
 
   .hero-details h1 {
@@ -227,7 +228,7 @@
 
 @media (max-width: 845px) {
   .hello-world {
-    font-size: 0.9rem;
+    /* font-size: 0.9rem; */
   }
 
   .hero-details h1 {
@@ -244,12 +245,13 @@
 
 @media (max-width: 650px) {
   .hello-world {
-    font-size: 18px;
-    letter-spacing: 18px;
+    font-size: 26px;
+    /* letter-spacing: 18px; */
   }
 
   .hero-container .headshot img {
     /* margin-left: 160px; */
+    /* left: 32px; */
   }
 
 
@@ -283,7 +285,7 @@
   .hello-world {
      font-size: 0.8rem;
      font-weight: 600;
-     letter-spacing: 12.5px;
+     /* letter-spacing: 12.5px; */
      position: relative;
      top: 10px;
   }
@@ -351,18 +353,22 @@
     /* bottom: 300px; */
     position: relative;
     /* top: 50px; */
-    left: 18px;;
+    /* left: 18px; */
    }
 
    .hero-details {
     /* top: 5px; */
    }
 
+   .hero-details p {
+    top: 12px;
+   }
+
    .hello-world {
     font-size: 14px;
     position: relative;
     top: 8px;
-    letter-spacing: 12px;
+    /* letter-spacing: 12px; */
    }
 
    .hero-details h1 {
