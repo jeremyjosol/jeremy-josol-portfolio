@@ -5,7 +5,7 @@ import { BsAsterisk } from "react-icons/bs";
 const About = () => {
   return (
     <div className="about-container">
-      <h2>"ABOUT" <BsAsterisk className='asterisk' /></h2>
+      <h1>"ABOUT" <BsAsterisk className='asterisk' /></h1>
       <p className="about-content">
         Born and raised in San Francisco, CA, I'm an artist, musician, graphic & web designer/fullstack developer, farmer by nature, and student of life. 
         <br />

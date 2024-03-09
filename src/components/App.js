@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Hero from './Hero';
 import Background from './Background';
 import Projects from './Projects';
-import About from './About'; 
+import About from './About';
 
 function App() {
   return (
@@ -12,14 +12,21 @@ function App() {
       <div>
         <Background />
         <Routes>
-          <Route path="/" element={
-            <Fragment> 
-              <Hero />
-              <Projects />
-            </Fragment>
+          <Route
+            path="/"
+            element={
+              <Fragment>
+                <Hero />
+                <Projects />
+              </Fragment>
             }
-         />
-          <Route path="/about" element={<About />} />
+          />
+          <Route
+            path="/about"
+            element={      
+              <About />
+            }
+          />
         </Routes>
       </div>
     </Router>
