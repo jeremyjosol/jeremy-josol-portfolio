@@ -6,6 +6,7 @@
   overflow: hidden;
   flex-direction: row-reverse;
   top: 50px;
+  margin-top: 75px;
 }
 
 .hero-container .headshot img {
@@ -305,7 +306,7 @@
 
 
   .hero-details h1 {
-    font-size: 3.2em;
+    font-size: 3.1em;
     max-width: 420px;
     /* text-align: right; */
     margin: auto;
@@ -362,6 +363,7 @@
 
   .hero-container {
     margin: auto;
+    margin-top: 50px;
     position: relative;
   }
 
