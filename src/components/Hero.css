@@ -54,7 +54,7 @@
 .hero-container p {
   background-color: rgba(18, 21, 45, 0.882);
   padding: 20px;
-  border: solid rgba(56, 63, 110, 0.307) 1px;
+  border: solid rgba(56, 63, 110, 0.307) 1.5px;
   border-radius: 10px;
   font-size: 16.5px;
   font-weight: 500;
@@ -158,6 +158,7 @@
   transform: translateX(100%); 
   animation: slideInFromRight 1.5s ease-in forwards;
   animation-delay: 5s; 
+  width: 120px;
 }
 
 @keyframes slideInFromRight {
@@ -173,8 +174,10 @@
 
 
 .about-button {
-  background: transparent;
+  background-color: #61dcfbb9;
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); 
+  color: rgb(26, 5, 180);
+  font-weight: 600;
 }
 
 .contact-button {
@@ -184,7 +187,12 @@
 
 .contact-button:hover {
   background-position: 0 0;
-  color: #61DBFB;
+  color: #61dcfbd1;
+  transition: 0.3s ease-out;
+}
+
+.about-button:hover {
+  color: rgb(186, 199, 223);
   transition: 0.3s ease-out;
 }
 
@@ -278,7 +286,7 @@
     margin-top: 18px;
     align-items: center;
     position: relative;
-    left: 225px
+    left: 200px
   }
 } 
 
@@ -293,6 +301,10 @@
 }
 
 @media (max-width: 700px) {
+  .hero-details {
+    transition: ease;
+  }
+
   .hero-details h1 {
     font-size: 3.8em;
   }
@@ -322,7 +334,8 @@
     display: flex;
     position: relative;
     /* top: -px; */
-    bottom: 30px;
+    bottom: 20px;
+    transition: ease;
     /* margin-left: 120px; */
   }
 
@@ -340,7 +353,8 @@
     margin-top: 20px;
     align-items: center;
     position: relative;
-    left: 118px
+    left: 25px;
+    width: 120px;
   }
 }
 
@@ -388,6 +402,7 @@
     margin: auto;
     position: relative;
     /* text-align: right; */
+    top: 6px;
   }
 
   .button-container {
@@ -400,7 +415,7 @@
     padding: 10px;
     /* margin: auto; */
     position: relative;
-    left: 1px;
+    left: 5px;
   }
 }
 
