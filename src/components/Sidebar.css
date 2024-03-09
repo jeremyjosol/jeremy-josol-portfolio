@@ -4,15 +4,16 @@
   left: 0;
   width: 200px;
   height: 62vh;
-  background-color: rgba(0, 13, 32, 0.88);
-  color: hsl(0, 0%, 100%);
+  background-color: rgba(18, 21, 45, 0.882);
+  color: rgba(186, 199, 223, 0.795);
   padding: 20px;
   overflow-y: none;
   transform: translateX(-100%);
   transition: transform 0.3s ease-in-out;
   border-radius: 20px;
-  backdrop-filter: blur(11px);
+  backdrop-filter: blur(50px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  border: solid rgba(56, 63, 110, 0.307) 1px;
 }
 
 .sidebar.show {
@@ -25,7 +26,8 @@
 
 .sidebar h2 {
   margin-bottom: 20px;
-  color: rgb(227, 227, 227);
+  color: rgba(186, 199, 223, 0.908);
+  position: relative;
 }
 
 .sidebar ul {
@@ -35,7 +37,7 @@
 
 .sidebar li {
   padding: 10px 0;
-  border-bottom: 1px solid #555;
+  border-bottom: 1px solid #555555aa;
 }
 
 .sidebar li:last-child {
@@ -48,25 +50,32 @@
 }
   
 .contact-icons .icon {
-    color: white;
-    font-size: 24px;
+    color: rgba(255, 255, 255, 0.817);
+    font-size: 16px;
+    margin-right: 4px;
 }
 
-@media (max-width: 1520px) {
+@media (max-width: 1580px) {
   .sidebar {
-    width: 155px;
+    width: 152px;
   }
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1460px) {
   .sidebar {
-    width: 150px;
+    width: 136px;
+  }
+}
+
+@media (max-width: 900px) {
+  .sidebar {
+    width: 136px;
   }
 }
 
 @media (max-width: 785px) {
   .sidebar {
-    width: 120px;
+    width: 110px;
   }
 }
 
@@ -76,30 +85,52 @@
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
   .sidebar {
     width: 80px;
   }
 }
 
-@media (max-width: 585px) {
+
+@media (max-width: 650px) {
   .sidebar {
     width: 78px;
   }
+
+  .sidebar h2 {
+    font-size: 22px;
+  }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 585px) {
   .sidebar {
-    width:  68px;
+    width: 70px;
+    font-size: 12.5px;
   }
 
   .sidebar h2 {
-    font-size: 18px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .sidebar {
+    width: 60px;
   }
 
-  .sidebar li {
-    font-size: 11px;
-    font-weight: 600;
-    color: rgb(210, 210, 210);
+  .sidebar h2 {
+    font-size: 17px;
+  }
+
+}
+@media (max-width: 430px) {
+  .sidebar {
+    width:  60px;
+  }
+}
+
+@media (max-width: 428px) {
+  .sidebar {
+    opacity: 0;
   }
 }

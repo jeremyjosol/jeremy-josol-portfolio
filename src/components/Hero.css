@@ -37,7 +37,7 @@
 .toggle-icon-container {
   position: absolute;
   left: 3px; 
-  top: 2%; 
+  top: 1.5%; 
   transform: translateY(-50%);
   cursor: pointer;
 }
@@ -48,10 +48,14 @@
 }
 
 .toggle-icon:hover {
-  color: #ccc; 
+  color: #61DBFB;
 }
 
 .hero-container p {
+  background-color: rgba(18, 21, 45, 0.882);
+  padding: 20px;
+  border: solid rgba(56, 63, 110, 0.307) 1px;
+  border-radius: 10px;
   font-size: 16.5px;
   font-weight: 500;
   color: rgba(186, 199, 223, 0.795);
@@ -59,7 +63,7 @@
   opacity: 0; 
   animation: fadeIn 0.5s ease-in forwards;
   animation-delay: 3s;
-  
+  backdrop-filter: blur(50px);
 }
 
 .hero-details {
@@ -134,9 +138,9 @@
 }
 
 .contact-button, .about-button {
-  font-size: 13px;
+  font-size: 12.5px;
   font-weight: 200;
-  background-color: rgba(0, 13, 32, 0.746);
+  background-color: rgba(18, 21, 45, 0.882);
   color: rgb(186, 199, 223);
   border: none;
   margin-right: 10px;
@@ -175,6 +179,7 @@
 
 .contact-button {
   backdrop-filter: blur(50px);
+  border: solid rgba(56, 63, 110, 0.307) 1px;
 }
 
 .contact-button:hover {
@@ -202,6 +207,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    /* top: 2px; */
     /* bottom: 125px; */
     /* max-height: 100vh; */
   }
@@ -282,7 +288,7 @@
   }
 
   .hero-details h1 {
-    font-size: 3.9em;
+    font-size: 3.8em;
   }
 }
 
@@ -295,7 +301,7 @@
 
 @media (max-width: 650px) {
   .hello-world {
-    font-size: 26px;
+    font-size: 22px;
     /* letter-spacing: 18px; */
   }
 
@@ -306,7 +312,7 @@
 
 
   .hero-details h1 {
-    font-size: 3.1em;
+    font-size: 2.9em;
     max-width: 420px;
     /* text-align: right; */
     margin: auto;
@@ -323,10 +329,12 @@
   .hero-details p {
     position: relative;
     top: 4px;
+    padding: 12px;
+    font-size: 13px;
   }
 
   .about-button, .contact-button {
-    font-size: 12px;
+    font-size: 11.5px;
     padding: 10px;
     /* margin: auto; */
     margin-top: 20px;
@@ -396,6 +404,12 @@
   }
 }
 
+@media (max-width: 475px) {
+  .hero-container p {
+    padding: 10px;
+  }
+}
+
 @media (max-width: 430px) {
   .hero-container {
     /* flex-direction: column-reverse; */
@@ -448,5 +462,9 @@
 @media (max-width: 428px) {
   .hero-details p {
     font-size: 10px;
+  }
+
+  .toggle-icon {
+    opacity: 0;
   }
 }
