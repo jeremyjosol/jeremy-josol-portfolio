@@ -24,7 +24,9 @@ const Projects = () => {
       <div className="projects-grid">
         {projects.map(project => (
           <div key={project.id} className="project-card">
-            <img src={project.imageUrl} alt={project.title} />
+            <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
+              <img src={project.imageUrl} alt={project.title} />
+            </a>
             <div className="project-details">
               <h3 className="project-title">{project.title}</h3>
               <p className="project-description">{project.description}</p>
