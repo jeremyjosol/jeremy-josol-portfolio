@@ -85,7 +85,7 @@
 .hello-world {
   color: rgba(186, 199, 223, 0.791);
   font-size: 1.8rem;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 2px;
   position: relative;
   top: 16px;
@@ -176,7 +176,7 @@
 .about-button {
   background-color: #61dcfbb9;
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); 
-  color: rgb(26, 5, 180);
+  color: rgb(14, 0, 124);
   font-weight: 600;
 }
 

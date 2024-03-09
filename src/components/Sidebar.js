@@ -28,6 +28,7 @@ const Sidebar = ({ showSidebar, onHideSidebar }) => {
           <li>Item 2</li>
         </ul>
         <div className="contact-icons">
+          <h5>Let's Connect!</h5>
           <IoMdMail className="icon" />
           <FaLinkedin className="icon" />
           <FaGithub className="icon" />
