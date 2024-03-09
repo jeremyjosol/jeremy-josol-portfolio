@@ -22,7 +22,7 @@ const Hero = () => {
         <h1><span className='hello-world'>Hello, World!</span>
         <br /> 
         <span className='becoming-gradient'>I'm</span> <span className='gradient'>Jeremy</span> <span className='gradient'>Josol.</span></h1>
-        <p>A multifaceted designer based out of Portland, OR.
+        <p>A multifaceted artist and designer based out of Portland, OR.
         I'm passionate about implementing creative web and graphic design solutions with clean modularized code to enhance & modernize user experiences.</p>
         <div className='button-container'>
           <button className="about-button"> ABOUT <BsArrowRightCircle className='icons' /></button>

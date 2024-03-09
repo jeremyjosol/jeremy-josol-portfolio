@@ -97,8 +97,9 @@
   left: 50%;
   width: 35vw;
   transform: translate(-50%, -50%);
-  font-size: 16px;
-  cursor: pointer;
+  font-size: 12.5px;
+  font-weight: 600;
+  cursor: none;
   backdrop-filter: blur(50px);
 }
 
@@ -181,8 +182,8 @@
 
   .project-description {
     top: 65%;
-    width: 50vw;
-    font-size: 14px;
+    width: 65vw;
+    font-size: 13.5px;
   }
 }
 
