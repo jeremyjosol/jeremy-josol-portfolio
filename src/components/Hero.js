@@ -4,7 +4,7 @@ import headshot from './../img/headshot.png';
 import { IoMdMail } from "react-icons/io";
 import { BsArrowRightCircle} from "react-icons/bs";
 import { MdKeyboardArrowRight } from "react-icons/md";
-
+import { Link } from 'react-router-dom';
 import Sidebar from './Sidebar';
 
 const Hero = () => {
@@ -25,7 +25,9 @@ const Hero = () => {
         <p>A multifaceted artist and designer based out of Portland, OR—
         passionate about implementing creative web and graphic design solutions with clean modularized code to enhance & modernize user experiences.</p>
         <div className='button-container'>
-          <button className="about-button"> ABOUT <BsArrowRightCircle className='icons' /></button>
+          <Link to="/about">
+            <button className='about-button'> ABOUT <BsArrowRightCircle className='icons' /></button>
+          </Link>
           <button className="contact-button"><IoMdMail className='icons' /> CONTACT</button>
         </div>
       </div>
