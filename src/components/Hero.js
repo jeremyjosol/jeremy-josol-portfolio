@@ -22,13 +22,13 @@ const Hero = () => {
         <h1><span className='hello-world'>Hello, World!</span>
         <br /> 
         <span className='becoming-gradient'>I'm</span> <span className='gradient'>Jeremy</span> <span className='gradient'>Josol.</span></h1>
-        <p>A multifaceted artist and designer based out of Portland, OR—
+        <p>A multifaceted artist and developer based out of Portland, OR—
         passionate about implementing creative web and graphic design solutions with clean modularized code to enhance & modernize user experiences.</p>
         <div className='button-container'>
           <Link to="/about">
-            <button className='about-button'> ABOUT <BsArrowRightCircle className='icons' /></button>
+            <button className='about-button'> Learn More </button>
           </Link>
-          <button className="contact-button"><IoMdMail className='icons' /> CONTACT</button>
+          <button className="contact-button"><IoMdMail className='icons' /> Contact</button>
         </div>
       </div>
       <Sidebar showSidebar={showSidebar} onHideSidebar={() => setShowSidebar(false)} />

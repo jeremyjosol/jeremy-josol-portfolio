@@ -1,6 +1,7 @@
 import './App.css';
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './Navbar';
 import Hero from './Hero';
 import Background from './Background';
 import Projects from './Projects';
@@ -10,6 +11,7 @@ function App() {
   return (
     <Router>
       <div>
+        <Navbar />
         <Background />
         <Routes>
           <Route

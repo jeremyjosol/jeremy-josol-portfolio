@@ -1,11 +1,23 @@
 .navbar {
-  background-color: rgb(18, 21, 45);
-  border-bottom: solid rgba(56, 63, 110, 0.307) 1px;
+  background-color: rgba(18, 21, 45, 0.384);
+  border-bottom: solid rgba(56, 63, 110, 0.688) 1px;
+  backdrop-filter: blur(60px);
 }
 
 .logo {
-  font-weight: 600;
-  margin-left: 20px;
+  font-weight: 500;
+  margin-left: 5px;
+  color: #61dcfbe6;
+  border: solid rgba(56, 63, 110, 0.688) 1px;
+  padding-top: 0;
+  padding-left: 12px;
+  padding-right: 12px;
+  position: relative;
+  letter-spacing: -1px;
+}
+
+.logo:hover, .logo:active, .logo:focus {
+  font-weight: 500;
   color: #61DBFB;
 }
 
@@ -34,6 +46,12 @@ span.navbar-toggler-icon {
   color: none;
 }
 
+#basic-navbar-nav.navbar-collapse {
+  margin-left: 12px;
+  transition: 0s ease;
+  font-size: 14px;
+}
+
 #basic-navbar-nav.navbar-collapse.show > .navbar-nav {
   float: right;
   font-size: 12px;
@@ -43,13 +61,20 @@ span.navbar-toggler-icon {
 }
 
 .navbar-nav .nav-link {
-  color: #fff;
+  color: rgb(186, 199, 223);
   margin-right: 20px;
 }
 
-.Navbar .navbar-nav .nav-link:hover {
-  text-decoration: underline;
+.navbar-nav .nav-link:hover {
+  color: #61DBFB;
+  font-weight: 600;
 }
+
+.navbar-nav .nav-link:focus{
+  color: #61DBFB;
+  font-weight: 800;
+}
+
 
 .navbar-toggler-icon {
   position: relative;
@@ -66,32 +91,35 @@ span.navbar-toggler-icon {
 .navbar-toggler-icon::before {
   content: '';
   position: absolute;
-  background-color: #ffffff;
+  background-color: rgb(186, 199, 223);
   top: 0;
   left: 0;
   width: 40%; 
   height: 1px; 
-  transition: width 0.5s, height 0.5s; 
+  transition: width 0.8s, height 0.8s; 
 }
 
 .navbar-toggler-icon::after {
   content: '';
   position: absolute;
-  background-color: #ffffff; 
+  background-color: rgb(186, 199, 223);
+
   top: 50%; 
   left: 0;
   width: 80%; 
   height: 1px; 
   transform: translateY(-50%); 
-  transition: width 0.5s, height 0.5s; 
+  transition: width 0.8s, height 0.8s; 
 }
 
 .navbar-toggler-icon:hover::before {
   width: 65%;
   height: 1.5px;
+  background-color: #61DBFB;
 }
 
 .navbar-toggler-icon:hover::after {
   width: 40%;
   height: 1.5px;
+  background-color: #61DBFB;
 }

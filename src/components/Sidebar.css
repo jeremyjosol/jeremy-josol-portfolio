@@ -2,7 +2,7 @@
   position: absolute;
   top: 25px;
   left: 0;
-  width: 200px;
+  width: 250px;
   height: 62vh;
   background-color: rgba(18, 21, 45, 0.882);
   color: rgba(186, 199, 223, 0.795);
@@ -28,6 +28,7 @@
   margin-bottom: 20px;
   color: rgba(186, 199, 223, 0.908);
   position: relative;
+  font-size: 2.0em;
 }
 
 .sidebar ul {
@@ -38,6 +39,12 @@
 .sidebar li {
   padding: 10px 0;
   border-bottom: 1px solid #555555aa;
+  font-size: 14.5px;
+}
+
+h5 {
+  font-size: 0.6em;
+  font-weight: 900;
 }
 
 .sidebar li:last-child {
@@ -51,19 +58,23 @@
   
 .contact-icons .icon {
     color: rgba(255, 255, 255, 0.817);
-    font-size: 16px;
+    font-size: 18px;
     margin-right: 4px;
 }
 
-@media (max-width: 1580px) {
+@media (min-width: 1460px) and (max-width: 1580px) {
   .sidebar {
-    width: 152px;
+    width: 200px;
   }
 }
 
 @media (max-width: 1460px) {
   .sidebar {
-    width: 136px;
+    width: 180px;
+  }
+
+  .sidebar h2 {
+    font-size: 1.6em;
   }
 }
 
@@ -75,36 +86,40 @@
 
 @media (max-width: 785px) {
   .sidebar {
-    width: 110px;
+    width: 130px;
   }
 }
 
 @media (max-width: 725px) {
   .sidebar {
-    width: 90px;
+    /* width: 90px; */
   }
 }
 
 @media (max-width: 700px) {
   .sidebar {
-    width: 80px;
+    /* width: 80px; */
   }
 }
 
 
 @media (max-width: 650px) {
   .sidebar {
-    width: 78px;
+    /* width: 78px; */
   }
 
   .sidebar h2 {
     font-size: 22px;
   }
+
+  .sidebar li {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 585px) {
   .sidebar {
-    width: 70px;
+    width: 118px;
     font-size: 12.5px;
   }
 
@@ -113,24 +128,37 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (min-width: 428px) and (max-width: 480px) {
   .sidebar {
-    width: 60px;
+    width: 112px;
   }
 
   .sidebar h2 {
     font-size: 17px;
   }
 
+  .sidebar li {
+    font-size: 11px;
+  }
+
+  h5 {
+    font-size: 7px;
+  }
+
+  .contact-icons .icon {
+    font-size: 15px;
+  }
 }
+
 @media (max-width: 430px) {
   .sidebar {
-    width:  60px;
+    width: 110px;
   }
 }
 
 @media (max-width: 428px) {
   .sidebar {
     opacity: 0;
+    transition: 0.3s ease-out;
   }
 }

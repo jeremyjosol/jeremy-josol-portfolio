@@ -15,11 +15,11 @@
   top: 0;
   left: 0;
   z-index: -4;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 @media (max-width: 700px) {
   .shadow-overlay {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.80);
   }
 }

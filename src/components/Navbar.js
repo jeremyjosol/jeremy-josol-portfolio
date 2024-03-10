@@ -7,7 +7,7 @@ const NavbarComponent = () => {
   return (
     <Navbar expand="lg">
       <Navbar.Brand className='logo' as={Link} to="/">
-        jj.jsx
+        jeremyjosol
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="ml-auto justify-content-end">

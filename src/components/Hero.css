@@ -44,7 +44,7 @@
 
 .toggle-icon {
   font-size: 24px; 
-  color: #fff;
+  color: rgb(186, 199, 223);
 }
 
 .toggle-icon:hover {
@@ -52,7 +52,7 @@
 }
 
 .hero-container p {
-  background-color: rgba(18, 21, 45, 0.882);
+  background-color: rgb(18, 21, 45);
   padding: 20px;
   border: solid rgba(56, 63, 110, 0.307) 1.5px;
   border-radius: 10px;
@@ -63,7 +63,7 @@
   opacity: 0; 
   animation: fadeIn 0.5s ease-in forwards;
   animation-delay: 3s;
-  backdrop-filter: blur(50px);
+  backdrop-filter: blur(120px);
 }
 
 .hero-details {
@@ -95,7 +95,7 @@
 }
 
 .hero-details h1 {
-  font-size: 5.4em;
+  font-size: 5.3em;
   margin-bottom: 3px;
   display: inline-block;
   font-weight: 600;
@@ -113,7 +113,7 @@
 
 .becoming-gradient {
   color: rgba(186, 199, 223, 0.82); 
-  font-weight: 100;
+  font-weight: 300;
   opacity: 0; 
   animation: fadeIn 0.5s ease-in forwards; 
   animation-delay: 2.0s; 
@@ -139,10 +139,9 @@
 
 .contact-button, .about-button {
   font-size: 12.5px;
-  font-weight: 200;
-  background-color: rgba(18, 21, 45, 0.882);
+  font-weight: 500;
+  background-color: rgba(0, 6, 39, 0.256);
   color: rgb(186, 199, 223);
-  border: none;
   margin-right: 10px;
   padding: 10px 20px;
   padding-top: 12px;
@@ -159,6 +158,8 @@
   animation: slideInFromRight 1.5s ease-in forwards;
   animation-delay: 5s; 
   width: 120px;
+  backdrop-filter: blur(50px);
+  border: solid rgba(56, 63, 110, 0.307) 1px;
 }
 
 @keyframes slideInFromRight {
@@ -172,32 +173,23 @@
   }
 }
 
-
-.about-button {
-  background-color: #61dcfbb9;
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); 
-  color: rgb(14, 0, 124);
-  font-weight: 600;
-}
-
 .contact-button {
   backdrop-filter: blur(50px);
-  border: solid rgba(56, 63, 110, 0.307) 1px;
+  background-color: rgba(18, 21, 45, 0.882);
 }
 
 .contact-button:hover {
   background-position: 0 0;
   color: #61dcfbd1;
   transition: 0.3s ease-out;
+  font-weight: 700;
 }
 
 .about-button:hover {
   color: rgb(186, 199, 223);
   transition: 0.3s ease-out;
-}
-
-.about-button:hover {
-  box-shadow: 0 0 7px rgba(255, 255, 255, 0.75);
+  box-shadow: 0 0 7px #61dcfbd1;
+  font-weight: 700;
 }
 
 .contact-button .icons, .about-button .icons {
@@ -225,7 +217,6 @@
    display: flex;
    /* bottom: 300px; */
    position: relative;
-   top: 10px;
    /* right: 250px; */
    margin: auto;
    left: 36px;
@@ -237,11 +228,11 @@
     margin: auto;
     position: relative;
     left: 75px;
-    bottom: 120px;
+    bottom: 75px;
   }
 
   .hero-details h1 {
-    /* font-size: 4em; */
+    font-size: 5em;
   }
 }
 
@@ -257,18 +248,18 @@
     text-align: center;
     transition: all 0.3s ease;
     left: 30px;
-    bottom: 75px;
+    bottom: 40px;
   }
 
   .hero-details h1 {
-    font-size: 4.4em;
+    font-size: 4.0em;
   }
 
   .hero-container .headshot img {
     display: flex;
     /* top: 1px; */
     position: relative;
-    /* left: 70px; */
+    left: 28px;
     width: 85%;
    }
 
@@ -311,9 +302,9 @@
 }
 
 
-@media (max-width: 650px) {
+@media (max-width: 660px) {
   .hello-world {
-    font-size: 22px;
+    /* font-size: 25px; */
     /* letter-spacing: 18px; */
   }
 
@@ -353,7 +344,7 @@
     margin-top: 20px;
     align-items: center;
     position: relative;
-    left: 25px;
+    left: 35px;
     width: 120px;
   }
 }
