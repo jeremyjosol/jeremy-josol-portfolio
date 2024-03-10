@@ -1,0 +1,97 @@
+.navbar {
+  background-color: rgb(18, 21, 45);
+  border-bottom: solid rgba(56, 63, 110, 0.307) 1px;
+}
+
+.logo {
+  font-weight: 600;
+  margin-left: 20px;
+  color: #61DBFB;
+}
+
+.navbar-toggler {
+  margin-left: auto; 
+  outline: none;
+  border: none;
+  box-shadow: none;   
+  background-color: none;
+  color: inherit;
+  --bs-navbar-toggler-icon-bg: none !important; 
+
+}
+
+button.navbar-toggler,
+span.navbar-toggler-icon {
+  box-shadow: none !important; 
+}
+
+
+.navbar-toggler-icon {
+  border: none;
+  outline: none !important;
+  background-color: none;
+  box-shadow: none;
+  color: none;
+}
+
+#basic-navbar-nav.navbar-collapse.show > .navbar-nav {
+  float: right;
+  font-size: 12px;
+  position: relative;
+  left: 6px;
+  transition: 0.5s ease-in-out;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  margin-right: 20px;
+}
+
+.Navbar .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-toggler-icon {
+  position: relative;
+  display: inline-block;
+  width: 35px; 
+  height: 10px; 
+  box-shadow: none;
+  outline: none;
+  border: none;
+  color: none;
+  transition: width 0.5s, height 0.5s;
+}
+
+.navbar-toggler-icon::before {
+  content: '';
+  position: absolute;
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  width: 40%; 
+  height: 1px; 
+  transition: width 0.5s, height 0.5s; 
+}
+
+.navbar-toggler-icon::after {
+  content: '';
+  position: absolute;
+  background-color: #ffffff; 
+  top: 50%; 
+  left: 0;
+  width: 80%; 
+  height: 1px; 
+  transform: translateY(-50%); 
+  transition: width 0.5s, height 0.5s; 
+}
+
+.navbar-toggler-icon:hover::before {
+  width: 65%;
+  height: 1.5px;
+}
+
+.navbar-toggler-icon:hover::after {
+  width: 40%;
+  height: 1.5px;
+}
