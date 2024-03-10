@@ -1,7 +1,7 @@
 .about-container {
-  margin: 120px auto; 
+  margin: 60px auto; 
   max-width: 100%;
-  width: 35%; 
+  width: 45%; 
   padding: 20px; 
   display: grid;
   place-items: center;
@@ -43,7 +43,7 @@
 
 @media (max-width: 1500px) {
   .about-container {
-    width: 60%;
+    width: 80%;
   }
 
   .about-container p {
@@ -58,5 +58,16 @@
 
   .about-container p {
     font-size: 16.5px;
+  }
+}
+
+@media (max-width: 660px) {
+  .about-container {
+    width: 95%;
+    margin-top: 45px;
+  }
+    
+  .about-container p {
+    font-size: 13.5px;
   }
 }
