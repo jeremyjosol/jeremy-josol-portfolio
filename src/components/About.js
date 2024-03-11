@@ -1,11 +1,10 @@
 import React from 'react';
 import './About.css';
-import { BsAsterisk } from "react-icons/bs";
 
 const About = () => {
   return (
     <div className="about-container">
-      <h1>"ABOUT" <BsAsterisk className='asterisk' /></h1>
+      <h1>"ABOUT"</h1>
       <p className="about-content">
         Growing up in San Francisco, CA, I built a strong foundation of love for art and culture—  elements that I strive to connect into my professional work. As a multidisciplinary artist, I create various mediums including and not limited to music, graphic/web design, approaching each with passion and synergy.
         <br />

@@ -35,12 +35,6 @@
   backdrop-filter: blur(50px);
 }
 
-.asterisk {
-  font-size: 20px;
-  position: relative;
-  top: 2px;
-}
-
 @media (max-width: 1500px) {
   .about-container {
     width: 80%;

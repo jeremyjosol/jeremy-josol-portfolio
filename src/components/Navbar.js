@@ -2,12 +2,13 @@ import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import { BsAsterisk } from "react-icons/bs";
 
 const NavbarComponent = () => {
   return (
     <Navbar expand="lg">
       <Navbar.Brand className='logo' as={Link} to="/">
-        jeremyjosol
+        jeremyjosol <BsAsterisk className='asterisk' />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="ml-auto justify-content-end">

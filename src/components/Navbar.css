@@ -16,6 +16,12 @@
   letter-spacing: -1px;
 }
 
+.logo .asterisk {
+  font-size: 12px;
+  position: relative;
+  top: 0px;
+}
+
 .logo:hover, .logo:active, .logo:focus {
   font-weight: 500;
   color: #61DBFB;

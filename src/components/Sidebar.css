@@ -42,6 +42,18 @@
   font-size: 14.5px;
 }
 
+.sidebar li:hover {
+  color: #61DBFB;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.sidebar li:focus, .sidebar-li:active {
+  color: #61DBFB;
+  font-weight: 800;
+}
+
 h5 {
   font-size: 0.6em;
   font-weight: 900;
