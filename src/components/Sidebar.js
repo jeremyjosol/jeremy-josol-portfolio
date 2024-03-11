@@ -38,6 +38,7 @@ const Sidebar = ({ showSidebar, onHideSidebar }) => {
           <li onClick={() => scrollToSection('webDesignSection')}>Website</li>
           <li onClick={() => scrollToSection('gamesSection')}>Game</li>
           <li onClick={() => scrollToSection('photoSection')}>Photo</li>
+          <li id='wip'>Curation {`(WIP)`} </li>
         </ul>
         <div className="contact-icons">
           <h5>Let's Connect!</h5>

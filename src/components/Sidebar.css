@@ -174,3 +174,8 @@ h5 {
     transition: 0.3s ease-out;
   }
 }
+
+#wip {
+  color: rgba(186, 199, 223, 0.35);
+  cursor:not-allowed;
+}
