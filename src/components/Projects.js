@@ -81,7 +81,7 @@ const Projects = () => {
         </div>
       </div>
       <div id="gamesSection">
-        <h2 className="projects-section-title">Games</h2>
+        <h2 className="projects-section-title">Game</h2>
         <div className="projects-grid">
           {gamesProjects.map(project => (
             <div key={project.id} className="project-card" id={`project-${project.id}`}>
