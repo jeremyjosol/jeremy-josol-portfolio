@@ -15,6 +15,17 @@ const Sidebar = ({ showSidebar, onHideSidebar }) => {
     onHideSidebar();
   };
 
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      window.scrollTo({
+        behavior: 'smooth',
+        top: element.offsetTop,
+      });
+      onHideSidebar();
+    }
+  };
+
   return (
     <div 
       className={`sidebar ${showSidebar || isMouseOver ? 'show' : ''}`}
@@ -24,8 +35,8 @@ const Sidebar = ({ showSidebar, onHideSidebar }) => {
       <div className="sidebar-content">
         <h2>Projects</h2>
         <ul>
-          <li>Item 1</li>
-          <li>Item 2</li>
+          <li onClick={() => scrollToSection('webDesignSection')}>Web Design</li>
+          <li onClick={() => scrollToSection('gamesSection')}>Games</li>
         </ul>
         <div className="contact-icons">
           <h5>Let's Connect!</h5>
@@ -39,5 +50,4 @@ const Sidebar = ({ showSidebar, onHideSidebar }) => {
 }
 
 export default Sidebar;
-
 
