@@ -26,7 +26,6 @@ const Contact = () => {
       });
   };
 
-
   return (
     <div className="contact-form">
       {loading ? (

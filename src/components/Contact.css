@@ -26,3 +26,14 @@
     transform: rotate(360deg);
   }
 }
+
+.message {
+  font-size: 28px;
+  color: rgb(186, 199, 223);
+  margin-top: 50px;
+  padding: 10px;
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
