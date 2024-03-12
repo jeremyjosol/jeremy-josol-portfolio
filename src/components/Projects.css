@@ -46,7 +46,9 @@
 
 .projects-header {
   color: rgb(186, 199, 223);
-  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
   font-size: 62px;
   align-self: flex-start;
   position: relative;
@@ -54,8 +56,11 @@
 }
 
 .projects-section-title {
-  color:  #61dcfb87;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 500;
+  font-style: normal;
+  color:  #61dcfbb7;
   align-self: flex-start;
   position: relative;
   margin-left: 25px;
@@ -180,7 +185,7 @@
 
 .project-links a {
   margin-left: 3px;
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.699);
   text-decoration: none;
 }
 

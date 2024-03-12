@@ -20,19 +20,54 @@
 }
 
 .about-container h1 {
-  color: rgb(186, 199, 223);
+  color: rgba(234, 234, 234, 0.795);
   text-align: center;
 }
 
-.about-container p {
+.about-container p, .about-container .archive {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   background-color: rgba(18, 21, 45, 0.882);
   padding: 20px;
   border: solid rgba(56, 63, 110, 0.307) 1.5px;
   border-radius: 10px;
-  font-size: 18.5px;
+  font-size: 21.5px;
   font-weight: 500;
-  color: rgba(186, 199, 223, 0.795);
+  color: rgba(234, 234, 234, 0.795);
   backdrop-filter: blur(50px);
+}
+
+.features {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.about-container .archive {
+  font-family: inherit;
+  width: 100%;
+  font-size: 14px;
+}
+
+.archive strong {
+  font-weight: 600;
+}
+
+.archive a {
+  text-decoration: none;
+  font-style: italic;
+  color: #61dcfbe6;
+}
+
+.archive a:hover {
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 500;
+  color: #61dcfb;
+}
+
+.about-container ul {
+  list-style: none;
 }
 
 @media (max-width: 1500px) {
@@ -63,5 +98,17 @@
     
   .about-container p {
     font-size: 13.5px;
+  }
+}
+
+@media (max-width: 520px) {
+  .about-container li {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 465px) {
+  .about-container li {
+    font-size: 10.5px;
   }
 }

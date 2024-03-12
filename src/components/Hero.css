@@ -52,6 +52,9 @@
 }
 
 .hero-container p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   background-color: rgb(18, 21, 45);
   padding: 20px;
   border: solid rgba(56, 63, 110, 0.307) 1.5px;
@@ -83,10 +86,12 @@
 }
 
 .hello-world {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
   color: rgba(186, 199, 223, 0.791);
   font-size: 1.8rem;
-  font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: -1px;
   position: relative;
   top: 16px;
   opacity: 0;
@@ -138,8 +143,10 @@
 }
 
 .contact-button, .about-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 12.5px;
-  font-weight: 500;
   background-color: rgba(0, 6, 39, 0.256);
   color: rgb(186, 199, 223);
   margin-right: 10px;
