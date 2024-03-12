@@ -124,6 +124,13 @@
   width: 65vw;
 }
 
+.photo-project-card:hover .project-title {
+  opacity: 1;
+  transition: 0.3s ease-in;
+  top: 1%;
+}
+
+
 
 .project-card img {
   max-width: calc(100% - 90px);  
@@ -194,7 +201,6 @@
   transition: 0.3s ease-in;
   transform: translateY(-3px);
 }
-
 
 .project-card:hover .project-title, .project-card:hover .project-description {
   opacity: 1;

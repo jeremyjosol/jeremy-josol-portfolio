@@ -14,8 +14,8 @@ const NavbarComponent = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="ml-auto justify-content-end">
         <Nav>
-          <Nav.Link as={NavLink} to='/' exact activeClassName="active">Home</Nav.Link>
-          <Nav.Link as={NavLink} to='/about' activeClassName="active">About</Nav.Link>
+          <Nav.Link as={NavLink} to='/' exact='true'>Home</Nav.Link>
+          <Nav.Link as={NavLink} to='/about' >About</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
