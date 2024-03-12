@@ -7,6 +7,7 @@ import Background from './Background';
 import Projects from './Projects';
 import About from './About';
 import Loading from './Loading';
+import Contact from './Contact';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -35,6 +36,7 @@ function App() {
                   <Fragment>
                     <Hero />
                     <Projects />
+                    <Contact />
                   </Fragment>
                 }
               />
