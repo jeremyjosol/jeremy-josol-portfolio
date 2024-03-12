@@ -6,6 +6,7 @@ import { BsArrowRightCircle} from "react-icons/bs";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Link } from 'react-router-dom';
 import Sidebar from './Sidebar';
+import { NavLink } from 'react-router-dom'; 
 
 const Hero = () => {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -25,9 +26,9 @@ const Hero = () => {
         <p>A multifaceted artist and developer based out of Portland, OR—
         passionate about implementing creative web and graphic design solutions with clean modularized code to enhance & modernize user experiences.</p>
         <div className='button-container'>
-          <Link to="/about">
+          <NavLink to="/about">
             <button className='about-button'> Learn More </button>
-          </Link>
+          </NavLink>
           <button className="contact-button"><IoMdMail className='icons' /> Contact</button>
         </div>
       </div>
