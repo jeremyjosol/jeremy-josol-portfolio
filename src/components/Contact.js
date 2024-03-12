@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { Form, Button } from 'react-bootstrap';
 import emailjs from 'emailjs-com';
 import './Contact.css';
+import { FiLoader } from "react-icons/fi";
 
 const Contact = () => {
   const [loading, setLoading] = useState(false);
@@ -18,14 +19,19 @@ const Contact = () => {
         console.log(error.text);
         setMessage('There was an error sending your email.');
       })
-    .finally(() => setLoading(false));
+      .finally(() => {
+        setTimeout(() => {
+          setLoading(false);
+        }, 3000); 
+      });
   };
+
 
   return (
     <div className="contact-form">
       {loading ? (
         <div className="loading-container">
-          <div className="loading-icon"></div>
+          <FiLoader className="loading-icon" />
           <div className="loading-text">Sending...</div>
         </div>
       ) : message ? (
