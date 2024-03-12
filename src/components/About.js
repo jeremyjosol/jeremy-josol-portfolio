@@ -17,7 +17,7 @@ const About = () => {
         <br />
         This portfolio is primarily built with React, however, serves as an ongoing exhibition to consistently experiment with new tech/frameworks and to share thoughts, projects, and mutual interests.
       </p>
-      <ul className='archive'> <span className='features'>Archive Features:</span>
+      <ul className='archive'> <span className='features'>Notable Features:</span>
         <hr />
         <li><strong>Apple Music</strong> | <a href='https://music.apple.com/ca/station/episode-310/ra.1239103378' target="_blank" rel="noopener noreferrer">Episode 310 Soulection Radio</a></li>
         <li><strong>Bodega</strong> | <a href='https://bdgastore.com/blogs/blogdega/editorial-bodega-x-garbstore-pond-across-the-pond' target='_blank' rel='noopener noreferrer'>Bodega x Garbstore 'Bond Across the Pond' Editorial</a></li>
