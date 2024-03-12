@@ -14,11 +14,7 @@
 
 #webDesignSection, #gamesSection, #photoSection {
   margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-#gamesSection {
-  margin-bottom: 500px;
+  margin-bottom: 100px;
 }
 
 @keyframes fadeIn {

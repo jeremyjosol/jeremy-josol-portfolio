@@ -1,17 +1,17 @@
 .contact-form {
-  background-color: rgb(18, 21, 45);
-  padding: 20px;
-  border: solid rgba(56, 63, 110, 0.307) 1.5px;
-  border-radius: 10px;
   width: 80%;
   margin: auto;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 }
 
 .contact-form .form {
   color: rgb(186, 199, 223);
   width: 88%;
   margin: auto;
+  background-color: rgb(18, 21, 45);
+  padding: 20px;
+  border: solid rgba(56, 63, 110, 0.307) 1.5px;
+  border-radius: 10px;
 }
 
 .contact-form h1, .contact-form p {
@@ -24,6 +24,29 @@
   color: rgba(186, 199, 223, 0.795);
   margin-bottom: 50px;
   line-height: 18px;;
+  width: 40%;
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+@media (max-width: 1005px) {
+  .contact-form p {
+    width: 75%;
+  }
+}
+
+@media (max-width: 562px) {
+  .contact-form p {
+    font-size: 16.5px;
+    width: 95%;
+  }
+}
+
+@media (max-width: 434px) {
+  .contact-form p {
+    font-size: 15.5px;
+    width: 98%;
+  }
 }
 
 .contact-form input,
@@ -39,16 +62,20 @@
 
 .loading-icon {
   width: 40px;
-  height: 40px; 
+  height: 40px;
   animation: spin 1.5s linear infinite; 
   color: #61DBFB;
   margin-left: 25px;
+  position: relative;
+  top: -45%;
 }
 
 .loading-text {
   font-size: 18px; 
   color: rgba(186, 199, 223, 0.795);
   margin-left: 15px;
+  position: relative;
+  top: -45%;
 }
 
 @keyframes spin {
@@ -65,7 +92,7 @@
   color: rgb(186, 199, 223);
   margin-top: 50px;
   padding: 10px;
-  padding-bottom: 120px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
