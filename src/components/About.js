@@ -6,13 +6,13 @@ const About = () => {
     <div className="about-container">
       <h1>"STORY"</h1>
       <p className="about-content">
-        Jeremy Josol is a multidisciplinary artist born and raised in San Francisco, CA, where he built a strong foundation of love for art and culture—  elements that he strives to connect into his professional work. Currently residing in Portland, OR, the various mediums he creates include but are not limited to music production, photography, graphic/web design, approaching each with careful precision, passion, and synergy.
+        Jeremy Josol is a multidisciplinary artist born and raised in San Francisco, CA, where he built a strong foundation of love for art and culture—  elements that he strives to connect into his professional work. Currently residing in Portland, OR, the various mediums he creates include but are not limited to music production, photography, and graphic/web design, approaching each with careful precision, passion, and synergy.
         <br />
         <br /> 
-        Since learning the foundation of web development, he quickly learned that the art of coding has allowed him the opportunity to freely translate his concepts into visual forms while challenging his problem-solving capabilities through the practice of influential design principles.
+        Since learning the foundation of web development, he quickly learned that the art of coding has allowed him the opportunity to freely translate thoughtful concepts into visual forms while challenging his problem-solving capabilities through the practice of research, planning, organizing, and influential design principles.
         <br />
         <br />
-        Jeremy is interested in developing web platforms to promote all forms of art; such as music and design, aid in brand development/identity, and build beautiful scalable projects with clean maintainable code.
+        Jeremy is interested in developing applications to promote all forms of art; such as music and design, aid in brand development/identity, and build beautiful scalable projects with clean maintainable code.
         <br />
         <br />
         This portfolio is primarily built with React, however, serves as an ongoing exhibition to consistently experiment with new tech/frameworks and to share thoughts, projects, and mutual interests.
