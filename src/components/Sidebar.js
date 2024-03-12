@@ -43,8 +43,8 @@ const Sidebar = ({ showSidebar, onHideSidebar }) => {
         <div className="contact-icons">
           <h5>Let's Connect!</h5>
           <IoMdMail className="icon" />
-          <FaLinkedin className="icon" />
-          <FaGithub className="icon" />
+          <a href='https://www.linkedin.com/in/jeremyjosol/' target="_blank" rel="noopener noreferrer"><FaLinkedin className="icon" /></a>
+          <a href='https://github.com/jeremyjosol' target="_blank" rel="noopener noreferrer"><FaGithub className="icon" /></a>
         </div>
       </div>
     </div>

@@ -77,6 +77,12 @@ h5 {
     margin-right: 4px;
 }
 
+.contact-icons .icon:hover {
+  color: #61DBFB;
+  transition: 0.3s ease-in;
+  transform: translateY(-3px);
+}
+
 @media (min-width: 1460px) and (max-width: 1580px) {
   .sidebar {
     width: 200px;
