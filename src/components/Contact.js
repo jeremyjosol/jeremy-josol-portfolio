@@ -36,7 +36,13 @@ const Contact = () => {
       ) : message ? (
         <div className="message">{message}</div>
       ) : (
+        <div className='form'>
         <Form onSubmit={handleSubmit}>
+          <h1 className='form-header'>Connect With Me!</h1>
+          <p>I'm open to creative challenges, opportunities for professional growth, and mutual connections.   
+          <br />
+          <br />
+          Let's have a conversation!</p>
           <Form.Group controlId="formBasicName">
             <Form.Control type="text" placeholder="Name" name="name" required />
           </Form.Group>
@@ -57,6 +63,7 @@ const Contact = () => {
             Submit
           </Button>
         </Form>
+        </div>
       )}
     </div>
   );
