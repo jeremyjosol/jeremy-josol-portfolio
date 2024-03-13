@@ -133,9 +133,9 @@ h5 {
   }
 }
 
-@media (min-width: 428px) and (max-width: 480px) {
+@media (min-width: 410px) and (max-width: 480px) {
   .sidebar {
-    width: 112px;
+    width: 105px;
   }
 
   .sidebar h2 {
@@ -151,17 +151,48 @@ h5 {
   }
 
   .contact-icons .icon {
-    font-size: 15px;
+    font-size: 12px;
+    margin-right: 1px;
   }
 }
 
 @media (max-width: 430px) {
   .sidebar {
-    width: 110px;
+    width: 100px;
   }
 }
 
-@media (max-width: 428px) {
+@media (max-width: 409px) {
+  .sidebar {
+    width: 90px;
+  }
+
+  .sidebar h2 {
+    font-size: 16px;
+    right: 5px;
+  }
+
+  .sidebar li {
+    font-size: 10.5px;
+  }
+
+  .contact-icons .icon {
+    font-size: 10px;
+    margin-right: 1px;
+  }
+}
+
+@media (max-width: 390px) {
+  .sidebar {
+    width: 85px;
+  }
+
+  .sidebar h2 {
+    right: 7px;
+  }
+}
+
+@media (max-width: 364px) {
   .sidebar {
     opacity: 0;
     transition: 0.3s ease-out;
