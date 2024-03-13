@@ -112,24 +112,7 @@ h5 {
   }
 }
 
-@media (max-width: 725px) {
-  .sidebar {
-    /* width: 90px; */
-  }
-}
-
-@media (max-width: 700px) {
-  .sidebar {
-    /* width: 80px; */
-  }
-}
-
-
 @media (max-width: 650px) {
-  .sidebar {
-    /* width: 78px; */
-  }
-
   .sidebar h2 {
     font-size: 22px;
   }
