@@ -133,6 +133,12 @@
   }
 }
 
+.button-container {
+  position: relative;
+  right: 35px;
+  bottom: 15px;
+}
+
 .contact-button, .about-button {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
@@ -264,6 +270,12 @@
     align-items: center;
     position: relative;
     left: 200px
+  }
+
+  .button-container {
+    position: relative;
+    right: 0;
+    bottom: 0;
   }
 } 
 
