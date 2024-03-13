@@ -16,7 +16,10 @@ const Hero = () => {
         <img src={headshot} alt="" />
       </div>
       <div className="toggle-icon-container">
-        <MdKeyboardArrowRight className="toggle-icon" onMouseEnter={() => setShowSidebar(true)} />
+        <MdKeyboardArrowRight 
+          className="toggle-icon" 
+          onMouseEnter={() => setShowSidebar(true)} 
+        />
       </div>
       <div className="hero-details">
         <h1><span className='hello-world'>Hello, World!</span>
@@ -28,12 +31,20 @@ const Hero = () => {
           <NavLink to="/about">
             <button className='about-button'> Learn More </button>
           </NavLink>
-          <Link to="contact" spy={true} smooth={true} duration={100}>
+          <Link 
+            to="contact" 
+            spy={true} 
+            smooth={true} 
+            duration={100}
+          >
             <button className="contact-button"><IoMdMail className='icons' /> Contact</button>
           </Link>
         </div>
       </div>
-      <Sidebar showSidebar={showSidebar} onHideSidebar={() => setShowSidebar(false)} />
+      <Sidebar 
+        showSidebar={showSidebar} 
+        onHideSidebar={() => setShowSidebar(false)} 
+      />
     </div>
   );
 }

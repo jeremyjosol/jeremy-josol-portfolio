@@ -23,7 +23,10 @@ const Background = () => {
         preload='auto' 
         id='bg'
       >
-        <source src={video} type='video/mp4' />
+        <source 
+          src={video} 
+          type='video/mp4' 
+        />
       </video>
     </>
   );

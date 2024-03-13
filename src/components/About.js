@@ -19,16 +19,86 @@ const About = () => {
       </p>
       <ul className='archive'> <span className='features'>Notable Features:</span>
         <hr />
-        <li><strong>Apple Music</strong> | <a href='https://music.apple.com/ca/station/episode-310/ra.1239103378' target="_blank" rel="noopener noreferrer">Episode 310 Soulection Radio</a></li>
-        <li><strong>Bodega</strong> | <a href='https://bdgastore.com/blogs/blogdega/editorial-bodega-x-garbstore-pond-across-the-pond' target='_blank' rel='noopener noreferrer'>Bodega x Garbstore 'Bond Across the Pond' Editorial</a></li>
-        <li><strong>Bodega</strong> | <a href='https://bdgastore.com/blogs/blogdega/editorial-bodega-x-suicoke-kaw-one-of-one' target='_blank' rel='noopener noreferrer'>Bodega x Suicoke Kaw 'One of One' Editorial</a></li>
-        <li><strong>Complex</strong> | <a href='https://www.complex.com/style/a/sanj-patel/garbstore-fo-jacket'>Bodega x Garbstore</a></li>
-        <li><strong>Input</strong> | <a href='https://www.inverse.com/input/style/bodegas-denim-suicoke-sandal-is-meant-to-get-better-with-age'>Bodega x Suicoke</a></li>
-        <li><strong>Highsnobiety</strong> | <a href='https://www.highsnobiety.com/p/bodega-suicoke-collab-sandal-shoe-denim/'>Bodega x Suicoke</a></li>
-        <li><strong>Hypebeast</strong> | <a href='https://hypebeast.com/2022/8/bodega-suicoke-kaw-denim-one-of-one-release-date'>Bodega x Suicoke</a></li>
-        <li><strong>Hypebeast</strong> | <a href='https://www.instagram.com/p/lgj3C1xelZ/' target='_blank' rel='noopener noreferrer'>#onfeet Instagram Series</a></li>
-        <li><strong>Hypebeast</strong> | <a href='https://www.instagram.com/p/lb5azbxepN/' target='_blank' rel='noopener noreferrer'>#hbouthere Instagram series</a></li>
-        <li><strong>Hypebeast</strong> | <a href='https://www.instagram.com/p/lOjz4axeit/?igsh=M29pcXB1YnhrbjVh' target='_blank' rel='noopener noreferrer'>#hypebeastproblems Instagram Series</a></li>
+        <li><strong>Apple Music</strong> | 
+          <a 
+            href='https://music.apple.com/ca/station/episode-310/ra.1239103378' 
+            target="_blank" 
+            rel="noopener noreferrer">
+              Episode 310 Soulection Radio
+          </a>
+        </li>
+        <li><strong>Bodega</strong> | 
+          <a 
+            href='https://bdgastore.com/blogs/blogdega/editorial-bodega-x-garbstore-pond-across-the-pond' 
+            target='_blank' 
+            rel='noopener noreferrer'>
+              Bodega x Garbstore 'Bond Across the Pond' Editorial
+          </a>
+        </li>
+        <li><strong>Bodega</strong> | 
+          <a 
+          href='https://bdgastore.com/blogs/blogdega/editorial-bodega-x-suicoke-kaw-one-of-one' 
+          target='_blank' 
+          rel='noopener noreferrer'>
+            Bodega x Suicoke Kaw 'One of One' Editorial
+          </a>
+        </li>
+        <li><strong>Complex</strong> | 
+          <a 
+            href='https://www.complex.com/style/a/sanj-patel/garbstore-fo-jacket' 
+            target='_blank' 
+            rel='noopener noreferrer'>
+              Bodega x Garbstore
+          </a>
+        </li>
+        <li><strong>Input</strong> | 
+          <a 
+            href='https://www.inverse.com/input/style/bodegas-denim-suicoke-sandal-is-meant-to-get-better-with-age' 
+            target='_blank'
+            rel='noopener noreferrer'>
+              Bodega x Suicoke
+          </a>
+        </li>
+        <li><strong>Highsnobiety</strong> | 
+          <a 
+            href='https://www.highsnobiety.com/p/bodega-suicoke-collab-sandal-shoe-denim/' 
+            target='_blank' 
+            rel='noopener noreferrer'>
+              Bodega x Suicoke
+          </a>
+        </li>
+        <li><strong>Hypebeast</strong> | 
+          <a 
+            href='https://hypebeast.com/2022/8/bodega-suicoke-kaw-denim-one-of-one-release-date' 
+            target='_blank' 
+            rel='noopener noreferrer'>
+              Bodega x Suicoke
+          </a>
+        </li>
+        <li><strong>Hypebeast</strong> | 
+          <a 
+            href='https://www.instagram.com/p/lgj3C1xelZ/' 
+            target='_blank' 
+            rel='noopener noreferrer'>
+              #onfeet Instagram Series
+          </a>
+        </li>
+        <li><strong>Hypebeast</strong> | 
+          <a 
+            href='https://www.instagram.com/p/lb5azbxepN/' 
+            target='_blank' 
+            rel='noopener noreferrer'>
+              #hbouthere Instagram series
+          </a>
+        </li>
+        <li><strong>Hypebeast</strong> | 
+          <a 
+            href='https://www.instagram.com/p/lOjz4axeit/?igsh=M29pcXB1YnhrbjVh' 
+            target='_blank' 
+            rel='noopener noreferrer'>
+              #hypebeastproblems Instagram Series
+          </a>
+        </li>
       </ul>
     </div>
   );

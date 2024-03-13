@@ -22,14 +22,32 @@ const NavbarComponent = () => {
 
   return (
     <Navbar expand="lg">
-      <Navbar.Brand className='logo' as={NavLink} to="/">
+      <Navbar.Brand 
+        className='logo' 
+        as={NavLink} 
+        to="/"
+      >
         jeremyjosol <BsAsterisk className='asterisk' />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav" className="ml-auto justify-content-end">
+      <Navbar.Collapse 
+        id="basic-navbar-nav" 
+        className="ml-auto justify-content-end"
+      >
         <Nav>
-          <Nav.Link as={NavLink} to='/' exact='true'>Home</Nav.Link>
-          <Nav.Link as={NavLink} to='/about' >About</Nav.Link>
+          <Nav.Link 
+            as={NavLink} 
+            to='/' 
+            exact='true'
+          >
+            Home
+          </Nav.Link>
+          <Nav.Link 
+            as={NavLink} 
+            to='/about' 
+          >
+            About
+          </Nav.Link>
           <Nav.Link onClick={handleContactClick}>Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>

@@ -45,22 +45,46 @@ const Contact = () => {
           Let's have a conversation!</p>
           <hr />
           <Form.Group controlId="formBasicName">
-            <Form.Control type="text" placeholder="Name" name="name" required />
+            <Form.Control 
+              type="text" 
+              placeholder="Name" 
+              name="name" 
+              required 
+            />
           </Form.Group>
 
           <Form.Group controlId="formBasicEmail">
-            <Form.Control type="email" placeholder="Email" name="email" required />
+            <Form.Control 
+              type="email" 
+              placeholder="Email" 
+              name="email" 
+              required 
+            />
           </Form.Group>
 
           <Form.Group controlId="formBasicSubject">
-            <Form.Control type="text" placeholder="Subject" name="subject" required />
+            <Form.Control 
+              type="text" 
+              placeholder="Subject" 
+              name="subject" 
+              required 
+            />
           </Form.Group>
 
           <Form.Group controlId="formBasicMessage">
-            <Form.Control as="textarea" rows={4} placeholder="Enter your message" name="message" required />
+            <Form.Control 
+              as="textarea" 
+              rows={4} 
+              placeholder="Enter your message" 
+              name="message" 
+              required 
+            />
           </Form.Group>
 
-          <Button variant="primary" type="submit">
+          <Button 
+            variant="primary" 
+            type="submit"
+          >
             Submit
           </Button>
         </Form>

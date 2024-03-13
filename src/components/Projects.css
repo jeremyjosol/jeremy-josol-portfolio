@@ -5,7 +5,6 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
-  /* height: 100vh; */
   margin-top: 150px;
   opacity: 0; 
   animation: fadeIn 1s ease-in forwards; 
@@ -14,7 +13,6 @@
 
 #webDesignSection, #gamesSection, #photoSection {
   margin-top: 50px;
-  /* margin-bottom: 100px; */
 }
 
 #photoSection {
@@ -64,7 +62,6 @@
   align-self: flex-start;
   position: relative;
   margin-left: 25px;
-  /* letter-spacing: 18px; */
   margin-bottom: 50px;
 }
 
@@ -79,23 +76,11 @@
     transform: translateY(50%);
 }
 
-/* .projects-header::after {
-  content: ''; 
-  position: absolute; 
-  bottom: 40%; 
-  left: (100% + 10px) ;
-  width: 22vw; 
-  height: 0.5px; 
-  background-color: rgb(186, 199, 223);
-  transform: translateY(50%);
-} */
-
-.project-card {
+.project-card, .photo-project-card {
   position: relative;
   background-color: rgba(18, 21, 45, 0.882);
   border: solid rgba(56, 63, 110, 0.307) 1px;
   border-radius: 8px;
-  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0); */
   overflow: hidden;
   height: 100%;
   box-sizing: border-box;
@@ -105,32 +90,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-direction: column; */
-}
-
-.photo-project-card {
-  position: relative;
-  background-color: rgba(18, 21, 45, 0.882);
-  border: solid rgba(56, 63, 110, 0.307) 1px;
-  border-radius: 8px;
-  overflow: hidden;
-  height: 100%;
-  box-sizing: border-box;
-  margin-bottom: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .photo-project-card img {
   width: 65vw;
 }
-
-/* .photo-project-card:hover .project-title {
-  opacity: 1;
-  transition: 0.3s ease-in;
-  top: 1%;
-} */
 
 .project-card img {
   max-width: calc(100% - 90px);  
@@ -164,7 +128,6 @@
 
 .project-description {
   color: rgba(186, 199, 223, 0.857);
-  /* background-color: rgba(0, 34, 112, 0.674); */
   border: solid rgba(56, 63, 110, 0.545) 1.5px;
   padding: 10px;
   border-radius: 12px;
@@ -180,25 +143,6 @@
   backdrop-filter: blur(50px);
   opacity: 0;
 }
-
-/* .project-tags {
-  position: relative;
-  left: -30%;
-  gap: 10px;
-  padding: 0;
-  list-style: none;
-}
-
-.project-tags li {
-  background-color: rgba(18, 21, 45, 0.882);
-  border: solid rgba(56, 63, 110, 0.307) 1px;
-  padding: 2px;
-  border-radius: 5px;
-  font-size: 8px;
-  color: #ffffff;
-  text-align: center;
-  margin-bottom: 12px;
-} */
 
 .project-links {
   position: absolute;
