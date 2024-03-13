@@ -105,6 +105,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* flex-direction: column; */
 }
 
 .photo-project-card {
@@ -180,22 +181,24 @@
   opacity: 0;
 }
 
-.project-tags {
-  list-style: none;
-  display: flex;
-  justify-content: flex-start;
+/* .project-tags {
+  position: relative;
+  left: -30%;
   gap: 10px;
-  margin-top: 10px;
+  padding: 0;
+  list-style: none;
 }
 
 .project-tags li {
-  background-color: #61dcfbb7;
-  padding: 5px 10px;
+  background-color: rgba(18, 21, 45, 0.882);
+  border: solid rgba(56, 63, 110, 0.307) 1px;
+  padding: 2px;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 8px;
   color: #ffffff;
-}
-
+  text-align: center;
+  margin-bottom: 12px;
+} */
 
 .project-links {
   position: absolute;
@@ -296,7 +299,7 @@
 
 @media (max-width: 775px) {
   .project-title {
-    top: -3%;
+    top: 3.5%;
     font-size: 40px;
   }
 
@@ -313,7 +316,7 @@
   }
 
   .project-title {
-    top: 4%;
+    top: 6%;
     font-size: 38px;
   }
 
