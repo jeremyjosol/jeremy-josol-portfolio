@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './ScrollToTop.css';
-import { FiChevronUp } from "react-icons/fi";
+import { IoIosArrowDropup } from "react-icons/io";
 
 const ScrollToTop = () => {
   const [showScrollTopIcon, setShowScrollTopIcon] = useState(false);
@@ -30,7 +30,7 @@ const ScrollToTop = () => {
 
   return (
     <div className={showScrollTopIcon ? "scroll-top-icon show" : "scroll-top-icon"} onClick={scrollToTop}>
-      <FiChevronUp />
+      <IoIosArrowDropup />
     </div>
   );
 }
