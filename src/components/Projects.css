@@ -17,6 +17,10 @@
   margin-bottom: 100px;
 }
 
+#photoSection {
+  margin-bottom: 50px;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0; 

@@ -43,6 +43,7 @@ const Contact = () => {
           <br />
           <br />
           Let's have a conversation!</p>
+          <hr />
           <Form.Group controlId="formBasicName">
             <Form.Control type="text" placeholder="Name" name="name" required />
           </Form.Group>
