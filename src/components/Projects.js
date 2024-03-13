@@ -143,6 +143,7 @@ const Projects = () => {
   const gamesProjects = projects.filter(project => project.category === 'Games');
   const photoProjects = projects.filter(project => project.category === 'Photo');
 
+  // eslint-disable-next-line no-unused-vars
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
