@@ -19,7 +19,7 @@ const About = () => {
       </p>
       <ul className='archive'> <span className='features'>Notable Features:</span>
         <hr />
-        <li><strong>Apple Music</strong> | 
+        <li><strong>Apple Music</strong> |&nbsp; 
           <a 
             href='https://music.apple.com/ca/station/episode-310/ra.1239103378' 
             target="_blank" 
@@ -27,7 +27,7 @@ const About = () => {
               Episode 310 Soulection Radio
           </a>
         </li>
-        <li><strong>Bodega</strong> | 
+        <li><strong>Bodega</strong> |&nbsp; 
           <a 
             href='https://bdgastore.com/blogs/blogdega/editorial-bodega-x-garbstore-pond-across-the-pond' 
             target='_blank' 
@@ -35,7 +35,7 @@ const About = () => {
               Bodega x Garbstore 'Bond Across the Pond' Editorial
           </a>
         </li>
-        <li><strong>Bodega</strong> | 
+        <li><strong>Bodega</strong> |&nbsp;
           <a 
           href='https://bdgastore.com/blogs/blogdega/editorial-bodega-x-suicoke-kaw-one-of-one' 
           target='_blank' 
@@ -43,15 +43,15 @@ const About = () => {
             Bodega x Suicoke Kaw 'One of One' Editorial
           </a>
         </li>
-        <li><strong>Complex</strong> | 
+        <li><strong>Complex</strong> |&nbsp;
           <a 
             href='https://www.complex.com/style/a/sanj-patel/garbstore-fo-jacket' 
             target='_blank' 
             rel='noopener noreferrer'>
-              Bodega x Garbstore
+               Bodega x Garbstore
           </a>
         </li>
-        <li><strong>Input</strong> | 
+        <li><strong>Input</strong> |&nbsp; 
           <a 
             href='https://www.inverse.com/input/style/bodegas-denim-suicoke-sandal-is-meant-to-get-better-with-age' 
             target='_blank'
@@ -59,7 +59,7 @@ const About = () => {
               Bodega x Suicoke
           </a>
         </li>
-        <li><strong>Highsnobiety</strong> | 
+        <li><strong>Highsnobiety</strong> |&nbsp; 
           <a 
             href='https://www.highsnobiety.com/p/bodega-suicoke-collab-sandal-shoe-denim/' 
             target='_blank' 
@@ -67,7 +67,7 @@ const About = () => {
               Bodega x Suicoke
           </a>
         </li>
-        <li><strong>Hypebeast</strong> | 
+        <li><strong>Hypebeast</strong> |&nbsp; 
           <a 
             href='https://hypebeast.com/2022/8/bodega-suicoke-kaw-denim-one-of-one-release-date' 
             target='_blank' 
@@ -75,7 +75,7 @@ const About = () => {
               Bodega x Suicoke
           </a>
         </li>
-        <li><strong>Hypebeast</strong> | 
+        <li><strong>Hypebeast</strong> |&nbsp; 
           <a 
             href='https://www.instagram.com/p/lgj3C1xelZ/' 
             target='_blank' 
@@ -83,7 +83,7 @@ const About = () => {
               #onfeet Instagram Series
           </a>
         </li>
-        <li><strong>Hypebeast</strong> | 
+        <li><strong>Hypebeast</strong> |&nbsp; 
           <a 
             href='https://www.instagram.com/p/lb5azbxepN/' 
             target='_blank' 
@@ -91,7 +91,7 @@ const About = () => {
               #hbouthere Instagram series
           </a>
         </li>
-        <li><strong>Hypebeast</strong> | 
+        <li><strong>Hypebeast</strong> |&nbsp; 
           <a 
             href='https://www.instagram.com/p/lOjz4axeit/?igsh=M29pcXB1YnhrbjVh' 
             target='_blank' 
