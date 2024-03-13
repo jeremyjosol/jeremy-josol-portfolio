@@ -180,6 +180,23 @@
   opacity: 0;
 }
 
+.project-tags {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.project-tags li {
+  background-color: #61dcfbb7;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+
 .project-links {
   position: absolute;
   top: 10px;
