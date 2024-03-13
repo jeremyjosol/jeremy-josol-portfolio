@@ -1,10 +1,24 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import './Navbar.css';
 import { BsAsterisk } from "react-icons/bs";
 
 const NavbarComponent = () => {
+  const navigate = useNavigate();
+
+  const handleContactClick = () => {
+    navigate('/');
+    setTimeout(() => {
+      const contactSection = document.getElementById('contact');
+      if (contactSection) {
+        window.scrollTo({
+          behavior: 'smooth',
+          top: contactSection.offsetTop,
+        });
+      }
+    }, 100);
+  };
 
   return (
     <Navbar expand="lg">
@@ -16,6 +30,7 @@ const NavbarComponent = () => {
         <Nav>
           <Nav.Link as={NavLink} to='/' exact='true'>Home</Nav.Link>
           <Nav.Link as={NavLink} to='/about' >About</Nav.Link>
+          <Nav.Link onClick={handleContactClick}>Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
