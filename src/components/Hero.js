@@ -2,9 +2,7 @@ import React, { useState } from 'react';
 import './Hero.css';
 import headshot from './../img/headshot.png';
 import { IoMdMail } from "react-icons/io";
-import { BsArrowRightCircle} from "react-icons/bs";
 import { MdKeyboardArrowRight } from "react-icons/md";
-import { Link } from 'react-router-dom';
 import Sidebar from './Sidebar';
 import { NavLink } from 'react-router-dom'; 
 

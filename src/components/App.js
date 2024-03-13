@@ -8,6 +8,7 @@ import Projects from './Projects';
 import About from './About';
 import Loading from './Loading';
 import Contact from './Contact';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -37,6 +38,7 @@ function App() {
                     <Hero />
                     <Projects />
                     <Contact />
+                    <ScrollToTop />
                   </Fragment>
                 }
               />

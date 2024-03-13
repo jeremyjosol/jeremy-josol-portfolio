@@ -1,0 +1,15 @@
+.scroll-top-icon {
+  position: fixed;
+  bottom: 2%;
+  right: 2px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+  z-index: 9999;
+  color: white;
+}
+
+.scroll-top-icon.show {
+  opacity: 1;
+  visibility: visible;
+}
