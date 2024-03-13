@@ -27,7 +27,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-form">
+    <div id="contact" className="contact-form">
       {loading ? (
         <div className="loading-container">
           <FiLoader className="loading-icon" />

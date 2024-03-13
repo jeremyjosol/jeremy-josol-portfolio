@@ -3,6 +3,7 @@ import './Hero.css';
 import headshot from './../img/headshot.png';
 import { IoMdMail } from "react-icons/io";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { Link } from 'react-scroll';
 import Sidebar from './Sidebar';
 import { NavLink } from 'react-router-dom'; 
 
@@ -27,7 +28,9 @@ const Hero = () => {
           <NavLink to="/about">
             <button className='about-button'> Learn More </button>
           </NavLink>
-          <button className="contact-button"><IoMdMail className='icons' /> Contact</button>
+          <Link to="contact" spy={true} smooth={true} duration={100}>
+            <button className="contact-button"><IoMdMail className='icons' /> Contact</button>
+          </Link>
         </div>
       </div>
       <Sidebar showSidebar={showSidebar} onHideSidebar={() => setShowSidebar(false)} />
